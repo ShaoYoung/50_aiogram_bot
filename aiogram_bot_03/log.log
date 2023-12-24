@@ -1,0 +1,17 @@
+INFO:aiogram.dispatcher:Start polling
+INFO:aiogram.dispatcher:Run polling for bot @SovtrudGorbushkaBot id=6674597359 - 'gorbushka'
+INFO:aiogram.event:Update id=539319193 is handled. Duration 406 ms by bot id=6674597359
+INFO:aiogram.event:Update id=539319194 is handled. Duration 125 ms by bot id=6674597359
+INFO:aiogram.dispatcher:Polling stopped
+INFO:aiogram.dispatcher:Polling stopped for bot @SovtrudGorbushkaBot id=6674597359 - 'gorbushka'
+INFO:aiogram.dispatcher:Start polling
+INFO:aiogram.dispatcher:Run polling for bot @SovtrudGorbushkaBot id=6674597359 - 'gorbushka'
+INFO:aiogram.event:Update id=539319195 is handled. Duration 406 ms by bot id=6674597359
+INFO:aiogram.dispatcher:Polling stopped
+INFO:aiogram.dispatcher:Polling stopped for bot @SovtrudGorbushkaBot id=6674597359 - 'gorbushka'
+INFO:aiogram.dispatcher:Start polling
+INFO:aiogram.dispatcher:Run polling for bot @SovtrudGorbushkaBot id=6674597359 - 'gorbushka'
+INFO:aiogram.event:Update id=539319196 is handled. Duration 390 ms by bot id=6674597359
+INFO:aiogram.event:Update id=539319197 is handled. Duration 125 ms by bot id=6674597359
+INFO:aiogram.dispatcher:Polling stopped
+INFO:aiogram.dispatcher:Polling stopped for bot @SovtrudGorbushkaBot id=6674597359 - 'gorbushka'

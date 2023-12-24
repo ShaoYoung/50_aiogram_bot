@@ -1,0 +1,1536 @@
+INFO:aiogram.dispatcher:Start polling
+INFO:aiogram.dispatcher:Run polling for bot @SovtrudGorbushkaBot id=6674597359 - 'gorbushka'
+INFO:aiogram.event:Update id=539319066 is handled. Duration 375 ms by bot id=6674597359
+INFO:aiogram.event:Update id=539319067 is not handled. Duration 0 ms by bot id=6674597359
+INFO:aiogram.event:Update id=539319068 is not handled. Duration 0 ms by bot id=6674597359
+INFO:aiogram.event:Update id=539319069 is handled. Duration 125 ms by bot id=6674597359
+INFO:aiogram.event:Update id=539319070 is handled. Duration 172 ms by bot id=6674597359
+INFO:aiogram.event:Update id=539319071 is not handled. Duration 0 ms by bot id=6674597359
+INFO:aiogram.dispatcher:Polling stopped
+INFO:aiogram.dispatcher:Polling stopped for bot @SovtrudGorbushkaBot id=6674597359 - 'gorbushka'
+INFO:aiogram.dispatcher:Start polling
+INFO:aiogram.dispatcher:Run polling for bot @SovtrudGorbushkaBot id=6674597359 - 'gorbushka'
+INFO:aiogram.event:Update id=539319072 is handled. Duration 359 ms by bot id=6674597359
+INFO:aiogram.event:Update id=539319073 is handled. Duration 140 ms by bot id=6674597359
+INFO:aiogram.event:Update id=539319074 is handled. Duration 141 ms by bot id=6674597359
+INFO:aiogram.event:Update id=539319075 is not handled. Duration 0 ms by bot id=6674597359
+INFO:aiogram.dispatcher:Polling stopped
+INFO:aiogram.dispatcher:Polling stopped for bot @SovtrudGorbushkaBot id=6674597359 - 'gorbushka'
+INFO:aiogram.dispatcher:Start polling
+INFO:aiogram.dispatcher:Run polling for bot @SovtrudGorbushkaBot id=6674597359 - 'gorbushka'
+INFO:aiogram.event:Update id=539319076 is handled. Duration 452 ms by bot id=6674597359
+INFO:paramiko.transport:Connected (version 2.0, client OpenSSH_9.3p1)
+INFO:paramiko.transport:Authentication (password) successful!
+INFO:aiogram.event:Update id=539319077 is handled. Duration 3296 ms by bot id=6674597359
+INFO:paramiko.transport:Connected (version 2.0, client OpenSSH_9.3p1)
+INFO:paramiko.transport:Authentication (password) successful!
+INFO:aiogram.event:Update id=539319078 is handled. Duration 3452 ms by bot id=6674597359
+INFO:aiogram.event:Update id=539319079 is not handled. Duration 0 ms by bot id=6674597359
+ERROR:aiogram.event:Cause exception while process update id=539319079 by bot id=6674597359
+UnboundLocalError: cannot access local variable 'text_callback' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 27, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\AppData\Local\Programs\Python\Python311\Lib\contextlib.py", line 222, in __aexit__
+    await self.gen.athrow(typ, value, traceback)
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\fsm\storage\memory.py", line 56, in lock
+    yield
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\fsm\middleware.py", line 41, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 116, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 111, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 144, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 116, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 111, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 136, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\ex\aiogram_bot\handlers.py", line 75, in send_vendors
+    await callback.message.answer("Вендоры:", reply_markup=get_inline_keyboard(text_callback))
+                                                                               ^^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'text_callback' where it is not associated with a value
+INFO:aiogram.event:Update id=539319080 is not handled. Duration 0 ms by bot id=6674597359
+ERROR:aiogram.event:Cause exception while process update id=539319080 by bot id=6674597359
+UnboundLocalError: cannot access local variable 'text_callback' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 27, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\AppData\Local\Programs\Python\Python311\Lib\contextlib.py", line 222, in __aexit__
+    await self.gen.athrow(typ, value, traceback)
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\fsm\storage\memory.py", line 56, in lock
+    yield
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\fsm\middleware.py", line 41, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 116, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 111, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 144, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 116, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 111, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 136, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\ex\aiogram_bot\handlers.py", line 75, in send_vendors
+    await callback.message.answer("Вендоры:", reply_markup=get_inline_keyboard(text_callback))
+                                                                               ^^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'text_callback' where it is not associated with a value
+INFO:aiogram.event:Update id=539319081 is not handled. Duration 0 ms by bot id=6674597359
+ERROR:aiogram.event:Cause exception while process update id=539319081 by bot id=6674597359
+UnboundLocalError: cannot access local variable 'text_callback' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 27, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\AppData\Local\Programs\Python\Python311\Lib\contextlib.py", line 222, in __aexit__
+    await self.gen.athrow(typ, value, traceback)
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\fsm\storage\memory.py", line 56, in lock
+    yield
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\fsm\middleware.py", line 41, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 116, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 111, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 144, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 116, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 111, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 136, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\ex\aiogram_bot\handlers.py", line 75, in send_vendors
+    await callback.message.answer("Вендоры:", reply_markup=get_inline_keyboard(text_callback))
+                                                                               ^^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'text_callback' where it is not associated with a value
+INFO:aiogram.event:Update id=539319082 is not handled. Duration 0 ms by bot id=6674597359
+ERROR:aiogram.event:Cause exception while process update id=539319082 by bot id=6674597359
+UnboundLocalError: cannot access local variable 'text_callback' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 27, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\AppData\Local\Programs\Python\Python311\Lib\contextlib.py", line 222, in __aexit__
+    await self.gen.athrow(typ, value, traceback)
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\fsm\storage\memory.py", line 56, in lock
+    yield
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\fsm\middleware.py", line 41, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 116, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 111, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 144, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 116, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 111, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 136, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\ex\aiogram_bot\handlers.py", line 75, in send_vendors
+    await callback.message.answer("Вендоры:", reply_markup=get_inline_keyboard(text_callback))
+                                                                               ^^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'text_callback' where it is not associated with a value
+INFO:aiogram.dispatcher:Polling stopped
+INFO:aiogram.dispatcher:Polling stopped for bot @SovtrudGorbushkaBot id=6674597359 - 'gorbushka'
+INFO:aiogram.dispatcher:Start polling
+INFO:aiogram.dispatcher:Run polling for bot @SovtrudGorbushkaBot id=6674597359 - 'gorbushka'
+INFO:paramiko.transport:Connected (version 2.0, client OpenSSH_9.3p1)
+INFO:paramiko.transport:Authentication (password) successful!
+INFO:aiogram.event:Update id=539319083 is handled. Duration 3485 ms by bot id=6674597359
+INFO:paramiko.transport:Connected (version 2.0, client OpenSSH_9.3p1)
+INFO:paramiko.transport:Authentication (password) successful!
+INFO:aiogram.event:Update id=539319084 is handled. Duration 3250 ms by bot id=6674597359
+INFO:aiogram.dispatcher:Polling stopped
+INFO:aiogram.dispatcher:Polling stopped for bot @SovtrudGorbushkaBot id=6674597359 - 'gorbushka'
+INFO:aiogram.dispatcher:Start polling
+INFO:aiogram.dispatcher:Run polling for bot @SovtrudGorbushkaBot id=6674597359 - 'gorbushka'
+INFO:paramiko.transport:Connected (version 2.0, client OpenSSH_9.3p1)
+INFO:paramiko.transport:Authentication (password) successful!
+INFO:aiogram.event:Update id=539319085 is handled. Duration 3375 ms by bot id=6674597359
+INFO:paramiko.transport:Connected (version 2.0, client OpenSSH_9.3p1)
+INFO:paramiko.transport:Authentication (password) successful!
+INFO:aiogram.event:Update id=539319086 is handled. Duration 3250 ms by bot id=6674597359
+INFO:paramiko.transport:Connected (version 2.0, client OpenSSH_9.3p1)
+INFO:paramiko.transport:Authentication (password) successful!
+INFO:aiogram.event:Update id=539319087 is not handled. Duration 3015 ms by bot id=6674597359
+ERROR:aiogram.event:Cause exception while process update id=539319087 by bot id=6674597359
+TypeError: can only join an iterable
+Traceback (most recent call last):
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 27, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\AppData\Local\Programs\Python\Python311\Lib\contextlib.py", line 222, in __aexit__
+    await self.gen.athrow(typ, value, traceback)
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\fsm\storage\memory.py", line 56, in lock
+    yield
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\fsm\middleware.py", line 41, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 116, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 111, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 144, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 116, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 111, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 136, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\ex\aiogram_bot\handlers.py", line 59, in send_descriptions
+    answer_message = "\n".join(descr_list)
+                     ^^^^^^^^^^^^^^^^^^^^^
+TypeError: can only join an iterable
+INFO:aiogram.dispatcher:Polling stopped
+INFO:aiogram.dispatcher:Polling stopped for bot @SovtrudGorbushkaBot id=6674597359 - 'gorbushka'
+INFO:aiogram.dispatcher:Start polling
+INFO:aiogram.dispatcher:Run polling for bot @SovtrudGorbushkaBot id=6674597359 - 'gorbushka'
+INFO:paramiko.transport:Connected (version 2.0, client OpenSSH_9.3p1)
+INFO:paramiko.transport:Authentication (password) successful!
+INFO:aiogram.event:Update id=539319088 is handled. Duration 3436 ms by bot id=6674597359
+INFO:paramiko.transport:Connected (version 2.0, client OpenSSH_9.3p1)
+INFO:paramiko.transport:Authentication (password) successful!
+INFO:aiogram.event:Update id=539319089 is handled. Duration 3282 ms by bot id=6674597359
+INFO:paramiko.transport:Connected (version 2.0, client OpenSSH_9.3p1)
+INFO:paramiko.transport:Authentication (password) successful!
+INFO:aiogram.event:Update id=539319090 is not handled. Duration 2983 ms by bot id=6674597359
+ERROR:aiogram.event:Cause exception while process update id=539319090 by bot id=6674597359
+TypeError: can only join an iterable
+Traceback (most recent call last):
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 27, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\AppData\Local\Programs\Python\Python311\Lib\contextlib.py", line 222, in __aexit__
+    await self.gen.athrow(typ, value, traceback)
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\fsm\storage\memory.py", line 56, in lock
+    yield
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\fsm\middleware.py", line 41, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 116, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 111, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 144, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 116, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 111, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 136, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\ex\aiogram_bot\handlers.py", line 59, in send_descriptions
+    answer_message = "\n".join(descr_list)
+                     ^^^^^^^^^^^^^^^^^^^^^
+TypeError: can only join an iterable
+INFO:aiogram.dispatcher:Polling stopped
+INFO:aiogram.dispatcher:Polling stopped for bot @SovtrudGorbushkaBot id=6674597359 - 'gorbushka'
+INFO:aiogram.dispatcher:Start polling
+INFO:aiogram.dispatcher:Run polling for bot @SovtrudGorbushkaBot id=6674597359 - 'gorbushka'
+INFO:paramiko.transport:Connected (version 2.0, client OpenSSH_9.3p1)
+INFO:paramiko.transport:Authentication (password) successful!
+INFO:aiogram.event:Update id=539319091 is handled. Duration 3375 ms by bot id=6674597359
+INFO:paramiko.transport:Connected (version 2.0, client OpenSSH_9.3p1)
+INFO:paramiko.transport:Authentication (password) successful!
+INFO:aiogram.event:Update id=539319092 is handled. Duration 3328 ms by bot id=6674597359
+INFO:paramiko.transport:Connected (version 2.0, client OpenSSH_9.3p1)
+INFO:paramiko.transport:Authentication (password) successful!
+INFO:aiogram.event:Update id=539319093 is not handled. Duration 3032 ms by bot id=6674597359
+ERROR:aiogram.event:Cause exception while process update id=539319093 by bot id=6674597359
+TypeError: can only join an iterable
+Traceback (most recent call last):
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 27, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\AppData\Local\Programs\Python\Python311\Lib\contextlib.py", line 222, in __aexit__
+    await self.gen.athrow(typ, value, traceback)
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\fsm\storage\memory.py", line 56, in lock
+    yield
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\fsm\middleware.py", line 41, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 116, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 111, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 144, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 116, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 111, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 136, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\ex\aiogram_bot\handlers.py", line 60, in send_descriptions
+    answer_message = "\n".join(descr_list)
+                     ^^^^^^^^^^^^^^^^^^^^^
+TypeError: can only join an iterable
+INFO:aiogram.dispatcher:Polling stopped
+INFO:aiogram.dispatcher:Polling stopped for bot @SovtrudGorbushkaBot id=6674597359 - 'gorbushka'
+INFO:aiogram.dispatcher:Start polling
+INFO:aiogram.dispatcher:Run polling for bot @SovtrudGorbushkaBot id=6674597359 - 'gorbushka'
+INFO:paramiko.transport:Connected (version 2.0, client OpenSSH_9.3p1)
+INFO:paramiko.transport:Authentication (password) successful!
+INFO:aiogram.event:Update id=539319095 is handled. Duration 3546 ms by bot id=6674597359
+INFO:paramiko.transport:Connected (version 2.0, client OpenSSH_9.3p1)
+INFO:paramiko.transport:Authentication (password) successful!
+INFO:aiogram.event:Update id=539319096 is handled. Duration 3172 ms by bot id=6674597359
+INFO:paramiko.transport:Connected (version 2.0, client OpenSSH_9.3p1)
+INFO:paramiko.transport:Authentication (password) successful!
+INFO:aiogram.event:Update id=539319097 is handled. Duration 3155 ms by bot id=6674597359
+INFO:aiogram.dispatcher:Polling stopped
+INFO:aiogram.dispatcher:Polling stopped for bot @SovtrudGorbushkaBot id=6674597359 - 'gorbushka'
+INFO:aiogram.dispatcher:Start polling
+INFO:aiogram.dispatcher:Run polling for bot @SovtrudGorbushkaBot id=6674597359 - 'gorbushka'
+INFO:paramiko.transport:Connected (version 2.0, client OpenSSH_9.3p1)
+INFO:paramiko.transport:Authentication (password) successful!
+INFO:aiogram.event:Update id=539319098 is handled. Duration 3453 ms by bot id=6674597359
+INFO:paramiko.transport:Connected (version 2.0, client OpenSSH_9.3p1)
+INFO:paramiko.transport:Authentication (password) successful!
+INFO:aiogram.event:Update id=539319099 is handled. Duration 3438 ms by bot id=6674597359
+INFO:paramiko.transport:Connected (version 2.0, client OpenSSH_9.3p1)
+INFO:paramiko.transport:Authentication (password) successful!
+INFO:aiogram.event:Update id=539319100 is handled. Duration 3344 ms by bot id=6674597359
+INFO:paramiko.transport:Connected (version 2.0, client OpenSSH_9.3p1)
+INFO:paramiko.transport:Authentication (password) successful!
+INFO:aiogram.event:Update id=539319101 is not handled. Duration 3125 ms by bot id=6674597359
+ERROR:aiogram.event:Cause exception while process update id=539319101 by bot id=6674597359
+TelegramBadRequest: Telegram server says - Bad Request: message is too long
+Traceback (most recent call last):
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 27, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\AppData\Local\Programs\Python\Python311\Lib\contextlib.py", line 222, in __aexit__
+    await self.gen.athrow(typ, value, traceback)
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\fsm\storage\memory.py", line 56, in lock
+    yield
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\fsm\middleware.py", line 41, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 116, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 111, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 144, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 116, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 111, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 136, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\ex\aiogram_bot\handlers.py", line 63, in send_descriptions
+    await callback.message.answer(answer_message)
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\methods\base.py", line 84, in emit
+    return await bot(self)
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\client\bot.py", line 432, in __call__
+    return await self.session(self, method, timeout=request_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\client\session\base.py", line 257, in __call__
+    return cast(TelegramType, await middleware(bot, method))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\client\session\aiohttp.py", line 179, in make_request
+    response = self.check_response(
+               ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\client\session\base.py", line 120, in check_response
+    raise TelegramBadRequest(method=method, message=description)
+aiogram.exceptions.TelegramBadRequest: Telegram server says - Bad Request: message is too long
+INFO:aiogram.dispatcher:Polling stopped
+INFO:aiogram.dispatcher:Polling stopped for bot @SovtrudGorbushkaBot id=6674597359 - 'gorbushka'
+INFO:aiogram.dispatcher:Start polling
+INFO:aiogram.dispatcher:Run polling for bot @SovtrudGorbushkaBot id=6674597359 - 'gorbushka'
+INFO:paramiko.transport:Connected (version 2.0, client OpenSSH_9.3p1)
+INFO:paramiko.transport:Authentication (password) successful!
+INFO:aiogram.event:Update id=539319102 is handled. Duration 3500 ms by bot id=6674597359
+INFO:aiogram.dispatcher:Polling stopped
+INFO:aiogram.dispatcher:Polling stopped for bot @SovtrudGorbushkaBot id=6674597359 - 'gorbushka'
+INFO:aiogram.dispatcher:Start polling
+INFO:aiogram.dispatcher:Run polling for bot @SovtrudGorbushkaBot id=6674597359 - 'gorbushka'
+INFO:paramiko.transport:Connected (version 2.0, client OpenSSH_9.3p1)
+INFO:paramiko.transport:Authentication (password) successful!
+INFO:aiogram.event:Update id=539319103 is handled. Duration 3546 ms by bot id=6674597359
+INFO:aiogram.dispatcher:Polling stopped
+INFO:aiogram.dispatcher:Polling stopped for bot @SovtrudGorbushkaBot id=6674597359 - 'gorbushka'
+INFO:aiogram.dispatcher:Start polling
+INFO:aiogram.dispatcher:Run polling for bot @SovtrudGorbushkaBot id=6674597359 - 'gorbushka'
+INFO:aiogram.dispatcher:Polling stopped
+INFO:aiogram.dispatcher:Polling stopped for bot @SovtrudGorbushkaBot id=6674597359 - 'gorbushka'
+INFO:aiogram.dispatcher:Start polling
+INFO:aiogram.dispatcher:Run polling for bot @SovtrudGorbushkaBot id=6674597359 - 'gorbushka'
+INFO:paramiko.transport:Connected (version 2.0, client OpenSSH_9.3p1)
+INFO:paramiko.transport:Authentication (password) successful!
+INFO:aiogram.event:Update id=539319105 is handled. Duration 3358 ms by bot id=6674597359
+INFO:paramiko.transport:Connected (version 2.0, client OpenSSH_9.3p1)
+INFO:paramiko.transport:Authentication (password) successful!
+INFO:aiogram.event:Update id=539319106 is handled. Duration 3155 ms by bot id=6674597359
+INFO:paramiko.transport:Connected (version 2.0, client OpenSSH_9.3p1)
+INFO:paramiko.transport:Authentication (password) successful!
+INFO:aiogram.event:Update id=539319107 is handled. Duration 4140 ms by bot id=6674597359
+INFO:paramiko.transport:Connected (version 2.0, client OpenSSH_9.3p1)
+INFO:paramiko.transport:Authentication (password) successful!
+INFO:paramiko.transport:Connected (version 2.0, client OpenSSH_9.3p1)
+INFO:paramiko.transport:Authentication (password) successful!
+INFO:aiogram.event:Update id=539319108 is handled. Duration 6342 ms by bot id=6674597359
+INFO:aiogram.event:Update id=539319109 is handled. Duration 3390 ms by bot id=6674597359
+INFO:paramiko.transport:Connected (version 2.0, client OpenSSH_9.3p1)
+INFO:paramiko.transport:Authentication (password) successful!
+INFO:aiogram.event:Update id=539319110 is handled. Duration 3452 ms by bot id=6674597359
+INFO:aiogram.dispatcher:Polling stopped
+INFO:aiogram.dispatcher:Polling stopped for bot @SovtrudGorbushkaBot id=6674597359 - 'gorbushka'
+INFO:aiogram.dispatcher:Start polling
+INFO:aiogram.dispatcher:Run polling for bot @SovtrudGorbushkaBot id=6674597359 - 'gorbushka'
+INFO:paramiko.transport:Connected (version 2.0, client OpenSSH_9.3p1)
+INFO:paramiko.transport:Authentication (password) successful!
+INFO:aiogram.event:Update id=539319111 is handled. Duration 3532 ms by bot id=6674597359
+INFO:paramiko.transport:Connected (version 2.0, client OpenSSH_9.3p1)
+INFO:paramiko.transport:Authentication (password) successful!
+INFO:aiogram.event:Update id=539319112 is handled. Duration 3500 ms by bot id=6674597359
+INFO:paramiko.transport:Connected (version 2.0, client OpenSSH_9.3p1)
+INFO:paramiko.transport:Authentication (password) successful!
+INFO:aiogram.event:Update id=539319113 is handled. Duration 3359 ms by bot id=6674597359
+INFO:paramiko.transport:Connected (version 2.0, client OpenSSH_9.3p1)
+INFO:paramiko.transport:Authentication (password) successful!
+INFO:aiogram.event:Update id=539319114 is handled. Duration 3452 ms by bot id=6674597359
+INFO:paramiko.transport:Connected (version 2.0, client OpenSSH_9.3p1)
+INFO:paramiko.transport:Authentication (password) successful!
+INFO:aiogram.event:Update id=539319115 is handled. Duration 3421 ms by bot id=6674597359
+INFO:paramiko.transport:Connected (version 2.0, client OpenSSH_9.3p1)
+INFO:paramiko.transport:Authentication (password) successful!
+INFO:aiogram.event:Update id=539319116 is handled. Duration 3375 ms by bot id=6674597359
+INFO:aiogram.dispatcher:Polling stopped
+INFO:aiogram.dispatcher:Polling stopped for bot @SovtrudGorbushkaBot id=6674597359 - 'gorbushka'
+INFO:aiogram.dispatcher:Start polling
+INFO:aiogram.dispatcher:Run polling for bot @SovtrudGorbushkaBot id=6674597359 - 'gorbushka'
+INFO:aiogram.event:Update id=539319117 is handled. Duration 327 ms by bot id=6674597359
+INFO:aiogram.dispatcher:Polling stopped
+INFO:aiogram.dispatcher:Polling stopped for bot @SovtrudGorbushkaBot id=6674597359 - 'gorbushka'
+INFO:aiogram.dispatcher:Start polling
+INFO:aiogram.dispatcher:Run polling for bot @SovtrudGorbushkaBot id=6674597359 - 'gorbushka'
+INFO:aiogram.event:Update id=539319118 is handled. Duration 561 ms by bot id=6674597359
+INFO:aiogram.event:Update id=539319119 is not handled. Duration 0 ms by bot id=6674597359
+INFO:aiogram.dispatcher:Polling stopped
+INFO:aiogram.dispatcher:Polling stopped for bot @SovtrudGorbushkaBot id=6674597359 - 'gorbushka'
+INFO:aiogram.dispatcher:Start polling
+INFO:aiogram.dispatcher:Run polling for bot @SovtrudGorbushkaBot id=6674597359 - 'gorbushka'
+INFO:aiogram.event:Update id=539319120 is handled. Duration 485 ms by bot id=6674597359
+INFO:paramiko.transport:Connected (version 2.0, client OpenSSH_9.3p1)
+INFO:paramiko.transport:Authentication (password) successful!
+INFO:aiogram.event:Update id=539319121 is handled. Duration 3265 ms by bot id=6674597359
+INFO:aiogram.dispatcher:Polling stopped
+INFO:aiogram.dispatcher:Polling stopped for bot @SovtrudGorbushkaBot id=6674597359 - 'gorbushka'
+INFO:aiogram.dispatcher:Start polling
+INFO:aiogram.dispatcher:Run polling for bot @SovtrudGorbushkaBot id=6674597359 - 'gorbushka'
+INFO:aiogram.event:Update id=539319122 is handled. Duration 592 ms by bot id=6674597359
+INFO:aiogram.event:Update id=539319123 is handled. Duration 405 ms by bot id=6674597359
+INFO:paramiko.transport:Connected (version 2.0, client OpenSSH_9.3p1)
+INFO:paramiko.transport:Authentication (password) successful!
+INFO:aiogram.event:Update id=539319124 is handled. Duration 3186 ms by bot id=6674597359
+INFO:aiogram.dispatcher:Polling stopped
+INFO:aiogram.dispatcher:Polling stopped for bot @SovtrudGorbushkaBot id=6674597359 - 'gorbushka'
+INFO:aiogram.dispatcher:Start polling
+INFO:aiogram.dispatcher:Run polling for bot @SovtrudGorbushkaBot id=6674597359 - 'gorbushka'
+INFO:aiogram.event:Update id=539319125 is handled. Duration 625 ms by bot id=6674597359
+INFO:paramiko.transport:Connected (version 2.0, client OpenSSH_9.3p1)
+INFO:paramiko.transport:Authentication (password) successful!
+INFO:aiogram.event:Update id=539319126 is handled. Duration 3467 ms by bot id=6674597359
+INFO:aiogram.event:Update id=539319127 is handled. Duration 139 ms by bot id=6674597359
+INFO:paramiko.transport:Connected (version 2.0, client OpenSSH_9.3p1)
+INFO:paramiko.transport:Authentication (password) successful!
+INFO:aiogram.event:Update id=539319128 is handled. Duration 3342 ms by bot id=6674597359
+INFO:paramiko.transport:Connected (version 2.0, client OpenSSH_9.3p1)
+INFO:paramiko.transport:Authentication (password) successful!
+INFO:aiogram.event:Update id=539319129 is handled. Duration 3233 ms by bot id=6674597359
+INFO:paramiko.transport:Connected (version 2.0, client OpenSSH_9.3p1)
+INFO:paramiko.transport:Authentication (password) successful!
+INFO:aiogram.event:Update id=539319130 is handled. Duration 3265 ms by bot id=6674597359
+INFO:aiogram.dispatcher:Polling stopped
+INFO:aiogram.dispatcher:Polling stopped for bot @SovtrudGorbushkaBot id=6674597359 - 'gorbushka'
+INFO:aiogram.dispatcher:Start polling
+INFO:aiogram.dispatcher:Run polling for bot @SovtrudGorbushkaBot id=6674597359 - 'gorbushka'
+INFO:aiogram.event:Update id=539319135 is handled. Duration 625 ms by bot id=6674597359
+INFO:aiogram.dispatcher:Polling stopped
+INFO:aiogram.dispatcher:Polling stopped for bot @SovtrudGorbushkaBot id=6674597359 - 'gorbushka'
+INFO:aiogram.dispatcher:Start polling
+INFO:aiogram.dispatcher:Run polling for bot @SovtrudGorbushkaBot id=6674597359 - 'gorbushka'
+INFO:aiogram.event:Update id=539319136 is handled. Duration 578 ms by bot id=6674597359
+INFO:aiogram.dispatcher:Polling stopped
+INFO:aiogram.dispatcher:Polling stopped for bot @SovtrudGorbushkaBot id=6674597359 - 'gorbushka'
+INFO:aiogram.dispatcher:Start polling
+INFO:aiogram.dispatcher:Run polling for bot @SovtrudGorbushkaBot id=6674597359 - 'gorbushka'
+INFO:aiogram.event:Update id=539319137 is handled. Duration 436 ms by bot id=6674597359
+INFO:aiogram.dispatcher:Polling stopped
+INFO:aiogram.dispatcher:Polling stopped for bot @SovtrudGorbushkaBot id=6674597359 - 'gorbushka'
+INFO:aiogram.dispatcher:Start polling
+INFO:aiogram.dispatcher:Run polling for bot @SovtrudGorbushkaBot id=6674597359 - 'gorbushka'
+INFO:aiogram.event:Update id=539319138 is handled. Duration 484 ms by bot id=6674597359
+INFO:aiogram.dispatcher:Polling stopped
+INFO:aiogram.dispatcher:Polling stopped for bot @SovtrudGorbushkaBot id=6674597359 - 'gorbushka'
+INFO:aiogram.dispatcher:Start polling
+INFO:aiogram.dispatcher:Run polling for bot @SovtrudGorbushkaBot id=6674597359 - 'gorbushka'
+INFO:aiogram.event:Update id=539319139 is handled. Duration 578 ms by bot id=6674597359
+INFO:aiogram.dispatcher:Polling stopped
+INFO:aiogram.dispatcher:Polling stopped for bot @SovtrudGorbushkaBot id=6674597359 - 'gorbushka'
+INFO:aiogram.dispatcher:Start polling
+INFO:aiogram.dispatcher:Run polling for bot @SovtrudGorbushkaBot id=6674597359 - 'gorbushka'
+INFO:aiogram.event:Update id=539319140 is handled. Duration 438 ms by bot id=6674597359
+INFO:aiogram.dispatcher:Polling stopped
+INFO:aiogram.dispatcher:Polling stopped for bot @SovtrudGorbushkaBot id=6674597359 - 'gorbushka'
+INFO:aiogram.dispatcher:Start polling
+INFO:aiogram.dispatcher:Run polling for bot @SovtrudGorbushkaBot id=6674597359 - 'gorbushka'
+INFO:aiogram.event:Update id=539319141 is handled. Duration 436 ms by bot id=6674597359
+INFO:aiogram.dispatcher:Polling stopped
+INFO:aiogram.dispatcher:Polling stopped for bot @SovtrudGorbushkaBot id=6674597359 - 'gorbushka'
+INFO:aiogram.dispatcher:Start polling
+INFO:aiogram.dispatcher:Run polling for bot @SovtrudGorbushkaBot id=6674597359 - 'gorbushka'
+INFO:aiogram.event:Update id=539319142 is handled. Duration 436 ms by bot id=6674597359
+INFO:aiogram.dispatcher:Polling stopped
+INFO:aiogram.dispatcher:Polling stopped for bot @SovtrudGorbushkaBot id=6674597359 - 'gorbushka'
+INFO:aiogram.dispatcher:Start polling
+INFO:aiogram.dispatcher:Run polling for bot @SovtrudGorbushkaBot id=6674597359 - 'gorbushka'
+INFO:aiogram.event:Update id=539319143 is handled. Duration 530 ms by bot id=6674597359
+INFO:aiogram.event:Update id=539319144 is not handled. Duration 0 ms by bot id=6674597359
+INFO:aiogram.event:Update id=539319145 is not handled. Duration 0 ms by bot id=6674597359
+INFO:aiogram.event:Update id=539319146 is not handled. Duration 0 ms by bot id=6674597359
+INFO:aiogram.dispatcher:Polling stopped
+INFO:aiogram.dispatcher:Polling stopped for bot @SovtrudGorbushkaBot id=6674597359 - 'gorbushka'
+INFO:aiogram.dispatcher:Start polling
+INFO:aiogram.dispatcher:Run polling for bot @SovtrudGorbushkaBot id=6674597359 - 'gorbushka'
+INFO:aiogram.event:Update id=539319147 is handled. Duration 515 ms by bot id=6674597359
+INFO:aiogram.event:Update id=539319148 is handled. Duration 405 ms by bot id=6674597359
+INFO:aiogram.event:Update id=539319149 is handled. Duration 280 ms by bot id=6674597359
+INFO:aiogram.event:Update id=539319150 is handled. Duration 563 ms by bot id=6674597359
+INFO:aiogram.event:Update id=539319151 is handled. Duration 311 ms by bot id=6674597359
+INFO:aiogram.event:Update id=539319152 is handled. Duration 297 ms by bot id=6674597359
+INFO:aiogram.event:Update id=539319153 is handled. Duration 203 ms by bot id=6674597359
+INFO:aiogram.event:Update id=539319154 is handled. Duration 500 ms by bot id=6674597359
+INFO:aiogram.dispatcher:Polling stopped
+INFO:aiogram.dispatcher:Polling stopped for bot @SovtrudGorbushkaBot id=6674597359 - 'gorbushka'
+INFO:aiogram.dispatcher:Start polling
+INFO:aiogram.dispatcher:Run polling for bot @SovtrudGorbushkaBot id=6674597359 - 'gorbushka'
+INFO:aiogram.event:Update id=539319155 is handled. Duration 530 ms by bot id=6674597359
+INFO:aiogram.event:Update id=539319156 is handled. Duration 297 ms by bot id=6674597359
+INFO:aiogram.event:Update id=539319157 is handled. Duration 750 ms by bot id=6674597359
+INFO:aiogram.event:Update id=539319158 is not handled. Duration 0 ms by bot id=6674597359
+INFO:aiogram.event:Update id=539319159 is not handled. Duration 0 ms by bot id=6674597359
+INFO:aiogram.event:Update id=539319160 is handled. Duration 438 ms by bot id=6674597359
+INFO:aiogram.dispatcher:Polling stopped
+INFO:aiogram.dispatcher:Polling stopped for bot @SovtrudGorbushkaBot id=6674597359 - 'gorbushka'
+INFO:aiogram.dispatcher:Start polling
+INFO:aiogram.dispatcher:Run polling for bot @SovtrudGorbushkaBot id=6674597359 - 'gorbushka'
+INFO:aiogram.event:Update id=539319161 is handled. Duration 484 ms by bot id=6674597359
+INFO:aiogram.event:Update id=539319162 is handled. Duration 265 ms by bot id=6674597359
+INFO:aiogram.dispatcher:Polling stopped
+INFO:aiogram.dispatcher:Polling stopped for bot @SovtrudGorbushkaBot id=6674597359 - 'gorbushka'
+INFO:aiogram.dispatcher:Start polling
+INFO:aiogram.dispatcher:Run polling for bot @SovtrudGorbushkaBot id=6674597359 - 'gorbushka'
+INFO:aiogram.event:Update id=539319163 is not handled. Duration 0 ms by bot id=6674597359
+ERROR:aiogram.event:Cause exception while process update id=539319163 by bot id=6674597359
+ValidationError: 1 validation error for NumbersCallbackFactory
+value
+  Input should be a valid integer [type=int_type, input_value={1: '1', 2: '2', 3: '3'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.5/v/int_type
+Traceback (most recent call last):
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 27, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\AppData\Local\Programs\Python\Python311\Lib\contextlib.py", line 222, in __aexit__
+    await self.gen.athrow(typ, value, traceback)
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\fsm\storage\memory.py", line 56, in lock
+    yield
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\fsm\middleware.py", line 41, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 116, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 111, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 136, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\aiogram_bot\bot.py", line 402, in cmd_numbers_fab
+    await message.answer("Укажите число", reply_markup=get_keyboard_fab())
+                                                       ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\aiogram_bot\bot.py", line 381, in get_keyboard_fab
+    text="-2", callback_data=NumbersCallbackFactory(action="change", value={1: '1', 2: '2', 3: '3'})
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\pydantic\main.py", line 164, in __init__
+    __pydantic_self__.__pydantic_validator__.validate_python(data, self_instance=__pydantic_self__)
+pydantic_core._pydantic_core.ValidationError: 1 validation error for NumbersCallbackFactory
+value
+  Input should be a valid integer [type=int_type, input_value={1: '1', 2: '2', 3: '3'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.5/v/int_type
+INFO:aiogram.dispatcher:Polling stopped
+INFO:aiogram.dispatcher:Polling stopped for bot @SovtrudGorbushkaBot id=6674597359 - 'gorbushka'
+INFO:aiogram.dispatcher:Start polling
+INFO:aiogram.dispatcher:Run polling for bot @SovtrudGorbushkaBot id=6674597359 - 'gorbushka'
+INFO:aiogram.event:Update id=539319164 is not handled. Duration 0 ms by bot id=6674597359
+ERROR:aiogram.event:Cause exception while process update id=539319164 by bot id=6674597359
+ValidationError: 1 validation error for NumbersCallbackFactory
+value
+  Input should be a valid integer [type=int_type, input_value={1: '1', 2: '2', 3: '3'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.5/v/int_type
+Traceback (most recent call last):
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 27, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\AppData\Local\Programs\Python\Python311\Lib\contextlib.py", line 222, in __aexit__
+    await self.gen.athrow(typ, value, traceback)
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\fsm\storage\memory.py", line 56, in lock
+    yield
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\fsm\middleware.py", line 41, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 116, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 111, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 136, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\aiogram_bot\bot.py", line 402, in cmd_numbers_fab
+    await message.answer("Укажите число", reply_markup=get_keyboard_fab())
+                                                       ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\aiogram_bot\bot.py", line 381, in get_keyboard_fab
+    text="-2", callback_data=NumbersCallbackFactory(action="change", value={1: '1', 2: '2', 3: '3'})
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\pydantic\main.py", line 164, in __init__
+    __pydantic_self__.__pydantic_validator__.validate_python(data, self_instance=__pydantic_self__)
+pydantic_core._pydantic_core.ValidationError: 1 validation error for NumbersCallbackFactory
+value
+  Input should be a valid integer [type=int_type, input_value={1: '1', 2: '2', 3: '3'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.5/v/int_type
+INFO:aiogram.event:Update id=539319165 is not handled. Duration 0 ms by bot id=6674597359
+ERROR:aiogram.event:Cause exception while process update id=539319165 by bot id=6674597359
+ValidationError: 1 validation error for NumbersCallbackFactory
+value
+  Input should be a valid integer [type=int_type, input_value={1: '1', 2: '2', 3: '3'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.5/v/int_type
+Traceback (most recent call last):
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 27, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\AppData\Local\Programs\Python\Python311\Lib\contextlib.py", line 222, in __aexit__
+    await self.gen.athrow(typ, value, traceback)
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\fsm\storage\memory.py", line 56, in lock
+    yield
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\fsm\middleware.py", line 41, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 116, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 111, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 136, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\aiogram_bot\bot.py", line 402, in cmd_numbers_fab
+    await message.answer("Укажите число", reply_markup=get_keyboard_fab())
+                                                       ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\aiogram_bot\bot.py", line 381, in get_keyboard_fab
+    text="-2", callback_data=NumbersCallbackFactory(action="change", value={1: '1', 2: '2', 3: '3'})
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\pydantic\main.py", line 164, in __init__
+    __pydantic_self__.__pydantic_validator__.validate_python(data, self_instance=__pydantic_self__)
+pydantic_core._pydantic_core.ValidationError: 1 validation error for NumbersCallbackFactory
+value
+  Input should be a valid integer [type=int_type, input_value={1: '1', 2: '2', 3: '3'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.5/v/int_type
+INFO:aiogram.dispatcher:Polling stopped
+INFO:aiogram.dispatcher:Polling stopped for bot @SovtrudGorbushkaBot id=6674597359 - 'gorbushka'
+INFO:aiogram.dispatcher:Start polling
+INFO:aiogram.dispatcher:Run polling for bot @SovtrudGorbushkaBot id=6674597359 - 'gorbushka'
+INFO:aiogram.event:Update id=539319166 is not handled. Duration 0 ms by bot id=6674597359
+ERROR:aiogram.event:Cause exception while process update id=539319166 by bot id=6674597359
+ValidationError: 1 validation error for NumbersCallbackFactory
+value
+  Input should be a valid integer [type=int_type, input_value=[1, 2, 3, 4, 5], input_type=list]
+    For further information visit https://errors.pydantic.dev/2.5/v/int_type
+Traceback (most recent call last):
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 27, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\AppData\Local\Programs\Python\Python311\Lib\contextlib.py", line 222, in __aexit__
+    await self.gen.athrow(typ, value, traceback)
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\fsm\storage\memory.py", line 56, in lock
+    yield
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\fsm\middleware.py", line 41, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 116, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 111, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 136, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\aiogram_bot\bot.py", line 402, in cmd_numbers_fab
+    await message.answer("Укажите число", reply_markup=get_keyboard_fab())
+                                                       ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\aiogram_bot\bot.py", line 390, in get_keyboard_fab
+    text="+2", callback_data=NumbersCallbackFactory(action="change", value=[1, 2, 3, 4, 5])
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\pydantic\main.py", line 164, in __init__
+    __pydantic_self__.__pydantic_validator__.validate_python(data, self_instance=__pydantic_self__)
+pydantic_core._pydantic_core.ValidationError: 1 validation error for NumbersCallbackFactory
+value
+  Input should be a valid integer [type=int_type, input_value=[1, 2, 3, 4, 5], input_type=list]
+    For further information visit https://errors.pydantic.dev/2.5/v/int_type
+INFO:aiogram.event:Update id=539319167 is not handled. Duration 0 ms by bot id=6674597359
+ERROR:aiogram.event:Cause exception while process update id=539319167 by bot id=6674597359
+ValidationError: 1 validation error for NumbersCallbackFactory
+value
+  Input should be a valid integer [type=int_type, input_value=[1, 2, 3, 4, 5], input_type=list]
+    For further information visit https://errors.pydantic.dev/2.5/v/int_type
+Traceback (most recent call last):
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 27, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\AppData\Local\Programs\Python\Python311\Lib\contextlib.py", line 222, in __aexit__
+    await self.gen.athrow(typ, value, traceback)
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\fsm\storage\memory.py", line 56, in lock
+    yield
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\fsm\middleware.py", line 41, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 116, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 111, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 136, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\aiogram_bot\bot.py", line 402, in cmd_numbers_fab
+    await message.answer("Укажите число", reply_markup=get_keyboard_fab())
+                                                       ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\aiogram_bot\bot.py", line 390, in get_keyboard_fab
+    text="+2", callback_data=NumbersCallbackFactory(action="change", value=[1, 2, 3, 4, 5])
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\pydantic\main.py", line 164, in __init__
+    __pydantic_self__.__pydantic_validator__.validate_python(data, self_instance=__pydantic_self__)
+pydantic_core._pydantic_core.ValidationError: 1 validation error for NumbersCallbackFactory
+value
+  Input should be a valid integer [type=int_type, input_value=[1, 2, 3, 4, 5], input_type=list]
+    For further information visit https://errors.pydantic.dev/2.5/v/int_type
+INFO:aiogram.event:Update id=539319168 is not handled. Duration 0 ms by bot id=6674597359
+ERROR:aiogram.event:Cause exception while process update id=539319168 by bot id=6674597359
+ValidationError: 1 validation error for NumbersCallbackFactory
+value
+  Input should be a valid integer [type=int_type, input_value=[1, 2, 3, 4, 5], input_type=list]
+    For further information visit https://errors.pydantic.dev/2.5/v/int_type
+Traceback (most recent call last):
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 27, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\AppData\Local\Programs\Python\Python311\Lib\contextlib.py", line 222, in __aexit__
+    await self.gen.athrow(typ, value, traceback)
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\fsm\storage\memory.py", line 56, in lock
+    yield
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\fsm\middleware.py", line 41, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 116, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 111, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 136, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\aiogram_bot\bot.py", line 402, in cmd_numbers_fab
+    await message.answer("Укажите число", reply_markup=get_keyboard_fab())
+                                                       ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\aiogram_bot\bot.py", line 390, in get_keyboard_fab
+    text="+2", callback_data=NumbersCallbackFactory(action="change", value=[1, 2, 3, 4, 5])
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\pydantic\main.py", line 164, in __init__
+    __pydantic_self__.__pydantic_validator__.validate_python(data, self_instance=__pydantic_self__)
+pydantic_core._pydantic_core.ValidationError: 1 validation error for NumbersCallbackFactory
+value
+  Input should be a valid integer [type=int_type, input_value=[1, 2, 3, 4, 5], input_type=list]
+    For further information visit https://errors.pydantic.dev/2.5/v/int_type
+INFO:aiogram.dispatcher:Polling stopped
+INFO:aiogram.dispatcher:Polling stopped for bot @SovtrudGorbushkaBot id=6674597359 - 'gorbushka'
+INFO:aiogram.dispatcher:Start polling
+INFO:aiogram.dispatcher:Run polling for bot @SovtrudGorbushkaBot id=6674597359 - 'gorbushka'
+INFO:aiogram.event:Update id=539319169 is handled. Duration 452 ms by bot id=6674597359
+INFO:aiogram.dispatcher:Polling stopped
+INFO:aiogram.dispatcher:Polling stopped for bot @SovtrudGorbushkaBot id=6674597359 - 'gorbushka'
+INFO:aiogram.dispatcher:Start polling
+INFO:aiogram.dispatcher:Run polling for bot @SovtrudGorbushkaBot id=6674597359 - 'gorbushka'
+INFO:aiogram.event:Update id=539319170 is handled. Duration 563 ms by bot id=6674597359
+INFO:aiogram.event:Update id=539319171 is handled. Duration 453 ms by bot id=6674597359
+INFO:aiogram.dispatcher:Polling stopped
+INFO:aiogram.dispatcher:Polling stopped for bot @SovtrudGorbushkaBot id=6674597359 - 'gorbushka'
+INFO:aiogram.dispatcher:Start polling
+INFO:aiogram.dispatcher:Run polling for bot @SovtrudGorbushkaBot id=6674597359 - 'gorbushka'
+INFO:aiogram.event:Update id=539319172 is not handled. Duration 0 ms by bot id=6674597359
+ERROR:aiogram.event:Cause exception while process update id=539319172 by bot id=6674597359
+ValidationError: 1 validation error for NumbersCallbackFactory
+value
+  Input should be a valid integer, unable to parse string as an integer [type=int_parsing, input_value='qwerty', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.5/v/int_parsing
+Traceback (most recent call last):
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 27, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\AppData\Local\Programs\Python\Python311\Lib\contextlib.py", line 222, in __aexit__
+    await self.gen.athrow(typ, value, traceback)
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\fsm\storage\memory.py", line 56, in lock
+    yield
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\fsm\middleware.py", line 41, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 116, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 111, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 136, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\aiogram_bot\bot.py", line 402, in cmd_numbers_fab
+    await message.answer("Укажите число", reply_markup=get_keyboard_fab())
+                                                       ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\aiogram_bot\bot.py", line 381, in get_keyboard_fab
+    text="-2", callback_data=NumbersCallbackFactory(action="change", value='qwerty')
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\pydantic\main.py", line 164, in __init__
+    __pydantic_self__.__pydantic_validator__.validate_python(data, self_instance=__pydantic_self__)
+pydantic_core._pydantic_core.ValidationError: 1 validation error for NumbersCallbackFactory
+value
+  Input should be a valid integer, unable to parse string as an integer [type=int_parsing, input_value='qwerty', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.5/v/int_parsing
+INFO:aiogram.dispatcher:Polling stopped
+INFO:aiogram.dispatcher:Polling stopped for bot @SovtrudGorbushkaBot id=6674597359 - 'gorbushka'
+INFO:aiogram.dispatcher:Start polling
+INFO:aiogram.dispatcher:Run polling for bot @SovtrudGorbushkaBot id=6674597359 - 'gorbushka'
+INFO:aiogram.event:Update id=539319173 is handled. Duration 467 ms by bot id=6674597359
+INFO:aiogram.event:Update id=539319174 is handled. Duration 375 ms by bot id=6674597359
+INFO:aiogram.event:Update id=539319175 is handled. Duration 313 ms by bot id=6674597359
+INFO:aiogram.event:Update id=539319176 is handled. Duration 297 ms by bot id=6674597359
+INFO:aiogram.dispatcher:Polling stopped
+INFO:aiogram.dispatcher:Polling stopped for bot @SovtrudGorbushkaBot id=6674597359 - 'gorbushka'
+INFO:aiogram.dispatcher:Start polling
+INFO:aiogram.dispatcher:Run polling for bot @SovtrudGorbushkaBot id=6674597359 - 'gorbushka'
+INFO:aiogram.event:Update id=539319177 is handled. Duration 436 ms by bot id=6674597359
+INFO:aiogram.event:Update id=539319178 is handled. Duration 266 ms by bot id=6674597359
+INFO:aiogram.event:Update id=539319179 is handled. Duration 467 ms by bot id=6674597359
+INFO:aiogram.event:Update id=539319180 is handled. Duration 405 ms by bot id=6674597359
+INFO:aiogram.event:Update id=539319181 is handled. Duration 515 ms by bot id=6674597359
+INFO:aiogram.dispatcher:Polling stopped
+INFO:aiogram.dispatcher:Polling stopped for bot @SovtrudGorbushkaBot id=6674597359 - 'gorbushka'
+INFO:aiogram.dispatcher:Start polling
+INFO:aiogram.dispatcher:Run polling for bot @SovtrudGorbushkaBot id=6674597359 - 'gorbushka'
+INFO:aiogram.event:Update id=539319182 is not handled. Duration 14 ms by bot id=6674597359
+ERROR:aiogram.event:Cause exception while process update id=539319182 by bot id=6674597359
+ValueError: Attribute value=[1, 2] of type 'list' can not be packed to callback data
+Traceback (most recent call last):
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 27, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\AppData\Local\Programs\Python\Python311\Lib\contextlib.py", line 222, in __aexit__
+    await self.gen.athrow(typ, value, traceback)
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\fsm\storage\memory.py", line 56, in lock
+    yield
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\fsm\middleware.py", line 41, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 116, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 111, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 136, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\aiogram_bot\bot.py", line 403, in cmd_numbers_fab
+    await message.answer("Укажите число", reply_markup=get_keyboard_fab())
+                                                       ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\aiogram_bot\bot.py", line 381, in get_keyboard_fab
+    builder.button(
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\utils\keyboard.py", line 250, in button
+    kwargs["callback_data"] = callback_data.pack()
+                              ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\filters\callback_data.py", line 98, in pack
+    encoded = self._encode_value(key, value)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\filters\callback_data.py", line 85, in _encode_value
+    raise ValueError(
+ValueError: Attribute value=[1, 2] of type 'list' can not be packed to callback data
+INFO:aiogram.dispatcher:Polling stopped
+INFO:aiogram.dispatcher:Polling stopped for bot @SovtrudGorbushkaBot id=6674597359 - 'gorbushka'
+INFO:aiogram.dispatcher:Start polling
+INFO:aiogram.dispatcher:Run polling for bot @SovtrudGorbushkaBot id=6674597359 - 'gorbushka'
+INFO:aiogram.event:Update id=539319183 is not handled. Duration 0 ms by bot id=6674597359
+ERROR:aiogram.event:Cause exception while process update id=539319183 by bot id=6674597359
+ValueError: Attribute value={'1': 1} of type 'dict' can not be packed to callback data
+Traceback (most recent call last):
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 27, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\AppData\Local\Programs\Python\Python311\Lib\contextlib.py", line 222, in __aexit__
+    await self.gen.athrow(typ, value, traceback)
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\fsm\storage\memory.py", line 56, in lock
+    yield
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\fsm\middleware.py", line 41, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 116, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 111, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 136, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\aiogram_bot\bot.py", line 403, in cmd_numbers_fab
+    await message.answer("Укажите число", reply_markup=get_keyboard_fab())
+                                                       ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\aiogram_bot\bot.py", line 381, in get_keyboard_fab
+    builder.button(
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\utils\keyboard.py", line 250, in button
+    kwargs["callback_data"] = callback_data.pack()
+                              ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\filters\callback_data.py", line 98, in pack
+    encoded = self._encode_value(key, value)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\filters\callback_data.py", line 85, in _encode_value
+    raise ValueError(
+ValueError: Attribute value={'1': 1} of type 'dict' can not be packed to callback data
+INFO:aiogram.dispatcher:Polling stopped
+INFO:aiogram.dispatcher:Polling stopped for bot @SovtrudGorbushkaBot id=6674597359 - 'gorbushka'
+INFO:aiogram.dispatcher:Start polling
+INFO:aiogram.dispatcher:Run polling for bot @SovtrudGorbushkaBot id=6674597359 - 'gorbushka'
+INFO:aiogram.event:Update id=539319184 is not handled. Duration 0 ms by bot id=6674597359
+ERROR:aiogram.event:Cause exception while process update id=539319184 by bot id=6674597359
+ValueError: Attribute value=[1, 2] of type 'list' can not be packed to callback data
+Traceback (most recent call last):
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 27, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\AppData\Local\Programs\Python\Python311\Lib\contextlib.py", line 222, in __aexit__
+    await self.gen.athrow(typ, value, traceback)
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\fsm\storage\memory.py", line 56, in lock
+    yield
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\fsm\middleware.py", line 41, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 116, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 111, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 136, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\aiogram_bot\bot.py", line 403, in cmd_numbers_fab
+    await message.answer("Укажите число", reply_markup=get_keyboard_fab())
+                                                       ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\aiogram_bot\bot.py", line 381, in get_keyboard_fab
+    builder.button(
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\utils\keyboard.py", line 250, in button
+    kwargs["callback_data"] = callback_data.pack()
+                              ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\filters\callback_data.py", line 98, in pack
+    encoded = self._encode_value(key, value)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\filters\callback_data.py", line 85, in _encode_value
+    raise ValueError(
+ValueError: Attribute value=[1, 2] of type 'list' can not be packed to callback data
+INFO:aiogram.dispatcher:Polling stopped
+INFO:aiogram.dispatcher:Polling stopped for bot @SovtrudGorbushkaBot id=6674597359 - 'gorbushka'
+INFO:aiogram.dispatcher:Start polling
+INFO:aiogram.dispatcher:Run polling for bot @SovtrudGorbushkaBot id=6674597359 - 'gorbushka'
+INFO:aiogram.event:Update id=539319185 is not handled. Duration 0 ms by bot id=6674597359
+ERROR:aiogram.event:Cause exception while process update id=539319185 by bot id=6674597359
+ValueError: Attribute value=[1, 2] of type 'list' can not be packed to callback data
+Traceback (most recent call last):
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 27, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\AppData\Local\Programs\Python\Python311\Lib\contextlib.py", line 222, in __aexit__
+    await self.gen.athrow(typ, value, traceback)
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\fsm\storage\memory.py", line 56, in lock
+    yield
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\fsm\middleware.py", line 41, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 116, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 111, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 136, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\aiogram_bot\bot.py", line 403, in cmd_numbers_fab
+    await message.answer("Укажите число", reply_markup=get_keyboard_fab())
+                                                       ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\aiogram_bot\bot.py", line 381, in get_keyboard_fab
+    builder.button(
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\utils\keyboard.py", line 250, in button
+    kwargs["callback_data"] = callback_data.pack()
+                              ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\filters\callback_data.py", line 98, in pack
+    encoded = self._encode_value(key, value)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\48_gorbushka\venv\Lib\site-packages\aiogram\filters\callback_data.py", line 85, in _encode_value
+    raise ValueError(
+ValueError: Attribute value=[1, 2] of type 'list' can not be packed to callback data
+INFO:aiogram.dispatcher:Polling stopped
+INFO:aiogram.dispatcher:Polling stopped for bot @SovtrudGorbushkaBot id=6674597359 - 'gorbushka'
+INFO:aiogram.dispatcher:Start polling
+INFO:aiogram.dispatcher:Run polling for bot @SovtrudGorbushkaBot id=6674597359 - 'gorbushka'
+INFO:aiogram.event:Update id=539319186 is handled. Duration 422 ms by bot id=6674597359
+INFO:aiogram.event:Update id=539319187 is handled. Duration 422 ms by bot id=6674597359
+INFO:aiogram.event:Update id=539319188 is handled. Duration 265 ms by bot id=6674597359
+INFO:aiogram.dispatcher:Polling stopped
+INFO:aiogram.dispatcher:Polling stopped for bot @SovtrudGorbushkaBot id=6674597359 - 'gorbushka'
+INFO:aiogram.dispatcher:Start polling
+INFO:aiogram.dispatcher:Run polling for bot @SovtrudGorbushkaBot id=6674597359 - 'gorbushka'
+INFO:aiogram.event:Update id=539319189 is handled. Duration 483 ms by bot id=6674597359
+INFO:aiogram.middlewares:Answer to callback query id=3489811395460930831
+INFO:aiogram.event:Update id=539319190 is handled. Duration 561 ms by bot id=6674597359
+INFO:aiogram.middlewares:Answer to callback query id=3489811395168268776
+INFO:aiogram.event:Update id=539319191 is handled. Duration 453 ms by bot id=6674597359
+INFO:aiogram.middlewares:Answer to callback query id=3489811393923948118
+INFO:aiogram.event:Update id=539319192 is handled. Duration 625 ms by bot id=6674597359
+INFO:aiogram.dispatcher:Polling stopped
+INFO:aiogram.dispatcher:Polling stopped for bot @SovtrudGorbushkaBot id=6674597359 - 'gorbushka'
