@@ -6,6 +6,7 @@ from pathlib import Path
 from dotenv import load_dotenv
 from aiogram import Bot, Dispatcher
 from handlers import questions, different_types
+from handlers import group_games
 
 
 def get_token():
@@ -25,13 +26,15 @@ async def main():
     dp = Dispatcher()
     # Подключаем обработчики. Порядок регистрации обработчиков имеет значение.
     # Если обработчики обрабатывают одинаковые типы, то работать будет тот, что объявлен раньше
-    dp.include_routers(questions.router, different_types.router)
+    dp.include_routers(group_games.router, questions.router, different_types.router)
     # dp.include_routers(different_types.router, questions.router)
     # Альтернативный вариант регистрации роутеров по одному на строку
     # dp.include_router(questions.router)
     # dp.include_router(different_types.router)
+    # dp.include_routers(group_games.router)
 
     # - удаляет все обновления, которые произошли после последнего завершения работы бота
+    # Этот метод можно вызвать даже если у вас поллинг
     await bot.delete_webhook(drop_pending_updates=True)
 
     # - запуск процесса поллинга новых апдейтов
