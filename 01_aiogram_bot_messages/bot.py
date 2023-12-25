@@ -13,6 +13,10 @@ from aiogram.enums import ParseMode
 from aiogram import html
 from aiogram.utils.formatting import Text, Bold, as_list, as_marked_section, as_key_value, HashTag
 from datetime import datetime
+from aiogram.types import FSInputFile, URLInputFile, BufferedInputFile
+from aiogram.utils.media_group import MediaGroupBuilder
+from aiogram.utils.markdown import hide_link
+
 
 # Диспетчер
 dp = Dispatcher()
@@ -32,7 +36,7 @@ def get_token():
 @dp.message(F.text, Command("test"))
 async def any_message(message: Message):
     # await message.answer("Hello, <b>world</b>!", parse_mode=ParseMode.HTML)
-    await message.answer("Hello, <b>world</b>!")
+    await message.reply("Hello, <b>world</b>!")
     await message.answer("Hello, *world*\!", parse_mode=ParseMode.MARKDOWN_V2)
 
 # Экранирование передаваемых значений
@@ -191,6 +195,137 @@ async def cmd_start_help(message: Message):
 
 
 # Медиафайлы
+
+# Помимо обычных текстовых сообщений Telegram позволяет обмениваться медиафайлами различных типов: фото, видео, гифки, геолокации, стикеры и т.д.
+# У большинства медиафайлов есть свойства file_id и file_unique_id.
+# Первый можно использовать для повторной отправки одного и того же файла много раз, причём отправка будет мгновенной, т.к. сам файл уже лежит на серверах Telegram
+# Следующий код заставит бота моментально ответить пользователю той же гифкой, что была прислана:
+@dp.message(F.animation)
+async def echo_gif(message: Message):
+    await message.reply_animation(message.animation.file_id)
+
+# В отличие от file_id, идентификатор file_unique_id нельзя использовать для повторной отправки или скачивания медиафайла,
+# но зато он одинаковый у всех ботов для конкретного медиа.
+# Нужен file_unique_id обычно тогда, когда нескольким ботам требуется знать, что их собственные file_id односятся к одному и тому же файлу.
+# Если файл ещё не существует на сервере Telegram, бот может загрузить его тремя различными способами:
+# как файл в файловой системе, по ссылке и напрямую набор байтов.
+# Для ускорения отправки и в целом для более бережного отношения к серверам мессенджера, загрузку (upload) файлов Telegram правильнее производить один раз,
+# а в дальнейшем использовать file_id, который будет доступен после первой загрузки медиа.
+# В aiogram 3.x присутствуют 3 класса для отправки изображений - FSInputFile, BufferedInputFile, URLInputFile
+# Пример отправки изображений всеми различными способами
+@dp.message(Command('images'))
+async def upload_photo(message: Message):
+    # Сюда будем помещать file_id отправленных файлов, чтобы потом ими воспользоваться
+    file_ids = []
+
+    # Чтобы продемонстрировать BufferedInputFile, воспользуемся "классическим" открытием файла через `open()`. Но, вообще говоря, этот способ
+    # лучше всего подходит для отправки байтов из оперативной памяти после проведения каких-либо манипуляций, например, редактированием через Pillow
+    # with open("buffer_emulation.jpg", "rb") as image_from_buffer:
+    #     result = await message.answer_photo(BufferedInputFile(image_from_buffer.read(), filename="image from buffer.jpg"), caption="Изображение из буфера")
+    #     file_ids.append(result.photo[-1].file_id)
+    #
+    # Отправка файла из файловой системы
+    image_from_pc = FSInputFile("photo_ball.jpg")
+    result = await message.answer_photo(image_from_pc, caption="Изображение из файла на компьютере")
+    file_ids.append(result.photo[-1].file_id)
+
+    # Отправка файла по ссылке
+    image_from_url = URLInputFile('https://media.istockphoto.com/id/91712739/ru/%D1%84%D0%BE%D1%82%D0%BE/%D1%84%D1%83%D1%82%D0%B1%D0%BE%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9-%D0%BC%D1%8F%D1%87.jpg?s=612x612&w=0&k=20&c=NhkXGyEMd-Vg1tWBn1DnhPCwEzoP5YDwAqlGRBmhmqQ=')
+    result = await message.answer_photo(image_from_url, caption="Изображение по ссылке")
+    file_ids.append(result.photo[-1].file_id)
+    await message.answer("Отправленные файлы:\n"+"\n".join(file_ids))
+
+
+# Скачивание файлов
+# Помимо переиспользования для отправки, бот может скачать медиа к себе на компьютер/сервер.
+# Для этого у объекта типа Bot есть метод download().
+# В примерах ниже файлы скачиваются сразу в файловую систему, но никто не мешает вместо этого сохранить в объект BytesIO в памяти, чтобы передать в какое-то приложение дальше (например, pillow).
+# В случае с изображениями мы использовали не message.photo, а message.photo[-1], почему?
+# Фотографии в Telegram в сообщении приходят сразу в нескольких экземплярах; это одно и то же изображение с разным размером.
+# Соответственно, если мы берём последний элемент (индекс -1), то работаем с максимально доступным размером фото.
+@dp.message(F.photo)
+async def download_photo(message: Message, bot: Bot):
+    print(message.photo[-1], '===', message.photo[-1].file_id)
+    await bot.download(message.photo[-1], destination=f"photos/{message.photo[-1].file_id}.jpg")
+
+
+@dp.message(F.sticker)
+async def download_sticker(message: Message, bot: Bot):
+    await bot.download(message.sticker, destination=f"photos/{message.sticker.file_id}.webp")
+
+
+# Альбомы
+# То, что мы называем «альбомами» (медиагруппами) в Telegram, на самом деле отдельные сообщения с медиа,
+# у которых есть общий media_group_id и которые визуально «склеиваются» на клиентах.
+# Начиная с версии 3.1, в aiogram есть «сборщик» альбомов, работу с которым мы сейчас рассмотрим. Но прежде стоит упомянуть несколько особенностей медиагрупп:
+# К ним нельзя прицепить инлайн-клавиатуру или отправить реплай-клавиатуру вместе с ними. Никак. Вообще никак.
+# У каждого медиафайла в альбоме может быть своя подпись (caption). Если подпись есть только у одного медиа, то она будет выводиться как общая подпись ко всему альбому.
+# Фотографии можно отправлять вперемешку с видео в одном альбоме, файлы (Document) и музыку (Audio) нельзя ни с чем смешивать, только с медиа того же типа.
+# В альбоме может быть не больше 10 (десяти) медиафайлов.
+# Теперь посмотрим, как это сделать в aiogram:
+@dp.message(Command("album"))
+async def cmd_album(message: Message):
+    album_builder = MediaGroupBuilder(caption="Общая подпись для будущего альбома")
+    # album_builder = MediaGroupBuilder()
+    album_builder.add(type="photo", media=FSInputFile("photos/photo_ball.jpg"))
+        # caption="Подпись к конкретному медиа"
+
+    # Если мы сразу знаем тип, то вместо общего add можно сразу вызывать add_<тип>
+    # Для ссылок или file_id достаточно сразу указать значение
+    # album_builder.add_photo(media="https://picsum.photos/seed/groosha/400/300")
+
+    # album_builder.add_photo(media="<ваш file_id>")
+
+    album_builder.add_photo(media=FSInputFile("photos/photo_ball.jpg"))
+    await message.answer_media_group(
+        # Не забудьте вызвать build()
+        media=album_builder.build()
+    )
+
+# А вот со скачиванием альбомов всё сильно хуже...
+# Как уже было сказано выше, альбомы — это просто сгруппированные отдельные сообщения, а это значит, что боту они прилетают тоже в разных апдейтах.
+# Вряд ли существует 100% надёжный способ принять весь альбом одним куском, но можно попытаться сделать это с минимальными потерями. Обычно это делается через мидлвари,
+
+
+# Сервисные (служебные) сообщения
+# Сообщения в Telegram делятся на текстовые, медиафайлы и служебные (они же — сервисные).
+# Несмотря на то, что они выглядят необычно и взаимодействие с ними ограничено, это всё ещё сообщения, у которых есть свои айдишники и даже владелец.
+# Стоит отметить, что спектр применения сервисных сообщений с годами менялся и сейчас, скорее всего, ваш бот с ними работать не будет, либо только удалять.
+# Пример: отправка приветственного сообщения вошедшему участнику.
+# У такого служебного сообщения будет content_type равный "new_chat_members", но вообще это объект Message, у которого заполнено одноимённое поле.
+@dp.message(F.new_chat_members)
+async def somebody_added(message: Message):
+    for user in message.new_chat_members:
+        # проперти full_name берёт сразу имя И фамилию
+        # (на скриншоте выше у юзеров нет фамилии)
+        await message.reply(f"Привет, {user.full_name}")
+# Важно помнить, что message.new_chat_members является списком, потому что один пользователь может добавить сразу нескольких участников.
+# Также не надо путать поля message.from_user и message.new_chat_members.
+# Первое — это субъект, т.е. тот, кто совершил действие.
+# Второе — это объекты действия. Т.е. если вы видите сообщение вида «Анна добавила Бориса и Виктора», то message.from_user — это информация об Анне, а список message.new_chat_members содержит информацию о Борисе с Виктором.
+# Не стоит целиком полагаться на сервисные сообщения!
+
+
+# Бонус: прячем ссылку в тексте
+# Бывают ситуации, когда хочется отправить длинное сообщение с картинкой, но лимит на подписи к медиафайлам составляет всего 1024 символа против 4096 у обычного текстового, а вставлять внизу ссылку на медиа — выглядит некрасиво. Более того, когда Telegram делает предпросмотр ссылок, он берёт первую из них и считывает метатеги, в результате сообщение может отправиться не с тем превью, которое хочется увидеть.
+# Для решения этой проблемы ещё много лет назад придумали подход со «скрытыми ссылками» в HTML-разметке. Суть в том, что можно поместить ссылку в пробел нулевой ширины и вставить всю эту конструкцию в начало сообщения. Для наблюдателя в сообщении никаких ссылок нет, а сервер Telegram всё видит и честно добавляет предпросмотр.
+# Разработчики aiogram для этого даже сделали специальный вспомогательный метод hide_link():
+# Странно работает. Ссылка отображается.
+@dp.message(Command("hidden_link"))
+async def cmd_hidden_link(message: Message):
+    await message.answer(
+        f"{hide_link('https://telegra.ph/file/562a512448876923e28c3.png')}"
+        f"Документация Telegram: *существует*\n"
+        f"Пользователи: *не читают документацию*\n"
+        f"Груша:"
+    )
+
+
+
+
+
+
+
 
 
 
