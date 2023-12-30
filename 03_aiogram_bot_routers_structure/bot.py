@@ -40,6 +40,6 @@ async def main():
 
 if __name__ == "__main__":
     # включаем логирование
-    logging.basicConfig(level=logging.INFO, filename="log.log", filemode="a")
+    logging.basicConfig(level=logging.INFO, filename="log.log", filemode="a", format="%(asctime)s %(levelname)s %(funcName)s %(message)s")
     # точка входа, асинхронный запуск
     asyncio.run(main())

@@ -17,3 +17,15 @@ INFO:aiogram.dispatcher:Start polling
 INFO:aiogram.dispatcher:Run polling for bot @SovtrudGorbushkaBot id=6674597359 - 'gorbushka'
 INFO:aiogram.dispatcher:Polling stopped
 INFO:aiogram.dispatcher:Polling stopped for bot @SovtrudGorbushkaBot id=6674597359 - 'gorbushka'
+2023-12-30 23:34:35,976 INFO start_polling Start polling
+2023-12-30 23:34:36,079 INFO _polling Run polling for bot @SovtrudGorbushkaBot id=6674597359 - 'gorbushka'
+2023-12-30 23:34:48,946 INFO feed_update Update id=539319482 is handled. Duration 390 ms by bot id=6674597359
+2023-12-30 23:34:54,974 INFO feed_update Update id=539319483 is handled. Duration 125 ms by bot id=6674597359
+2023-12-30 23:34:57,569 INFO feed_update Update id=539319484 is handled. Duration 125 ms by bot id=6674597359
+2023-12-30 23:35:07,456 INFO feed_update Update id=539319485 is handled. Duration 203 ms by bot id=6674597359
+2023-12-30 23:35:08,493 INFO feed_update Update id=539319486 is handled. Duration 186 ms by bot id=6674597359
+2023-12-30 23:35:14,798 INFO feed_update Update id=539319487 is handled. Duration 280 ms by bot id=6674597359
+2023-12-30 23:35:34,403 INFO feed_update Update id=539319488 is handled. Duration 359 ms by bot id=6674597359
+2023-12-30 23:35:37,964 INFO feed_update Update id=539319489 is handled. Duration 155 ms by bot id=6674597359
+2023-12-30 23:35:44,390 INFO start_polling Polling stopped
+2023-12-30 23:35:44,644 INFO _polling Polling stopped for bot @SovtrudGorbushkaBot id=6674597359 - 'gorbushka'
