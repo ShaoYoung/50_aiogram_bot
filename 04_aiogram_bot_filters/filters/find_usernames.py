@@ -9,21 +9,17 @@ from aiogram.types import Message
 # Чтобы стало понятнее, напишем фильтр, который пропустит сообщение, если в нём есть юзернеймы, а заодно «протолкнёт» в хэндлеры найденные значения.
 
 class HasUsernamesFilter(BaseFilter):
+    # метод __call__() срабатывает, когда экземпляр класса HasUsernamesFilter() вызывают как функцию
     async def __call__(self, message: Message) -> Union[bool, Dict[str, Any]]:
-        # Если entities вообще нет, вернётся None,
-        # в этом случае считаем, что это пустой список
+        # Если entities вообще нет, вернётся None, в этом случае считаем, что это пустой список
+        # print(f'{message.entities=}')
         entities = message.entities or []
 
-        # Проверяем любые юзернеймы и извлекаем их из текста
-        # методом extract_from(). Подробнее см. главу
-        # про работу с сообщениями
-        found_usernames = [
-            item.extract_from(message.text) for item in entities
-            if item.type == "mention"
-        ]
+        # Проверяем любые юзернеймы и извлекаем их из текста методом extract_from(). Подробнее см. главу про работу с сообщениями
+        found_usernames = [item.extract_from(message.text) for item in entities if item.type == "mention"]
+        # print(f'{found_usernames=}')
 
-        # Если юзернеймы есть, то "проталкиваем" их в хэндлер
-        # по имени "usernames"
+        # Если юзернеймы есть, то "проталкиваем" их в хэндлер по имени "usernames"
         if len(found_usernames) > 0:
             return {"usernames": found_usernames}
         # Если не нашли ни одного юзернейма, вернём False
