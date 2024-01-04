@@ -1,6 +1,7 @@
 # Используем фреймворк aiogram
 
 from config_reader import config
+
 import asyncio
 import logging
 from aiogram import Bot, Dispatcher, types
