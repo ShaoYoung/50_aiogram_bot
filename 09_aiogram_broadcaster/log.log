@@ -1,0 +1,1082 @@
+2024-01-07 01:40:04,817 - INFO - start_polling - Start polling
+2024-01-07 01:40:04,916 - INFO - _polling - Run polling for bot @SovtrudGorbushkaBot id=6674597359 - 'gorbushka'
+2024-01-07 01:40:29,345 - INFO - feed_update - Update id=539319743 is handled. Duration 359 ms by bot id=6674597359
+2024-01-07 01:40:41,570 - INFO - feed_update - Update id=539319744 is handled. Duration 391 ms by bot id=6674597359
+2024-01-07 01:40:47,866 - INFO - feed_update - Update id=539319745 is handled. Duration 265 ms by bot id=6674597359
+2024-01-07 01:40:51,982 - INFO - feed_update - Update id=539319746 is handled. Duration 125 ms by bot id=6674597359
+2024-01-07 01:41:12,623 - INFO - start_polling - Polling stopped
+2024-01-07 01:41:12,888 - INFO - _polling - Polling stopped for bot @SovtrudGorbushkaBot id=6674597359 - 'gorbushka'
+2024-01-08 19:23:16,624 - INFO - start_polling - Start polling
+2024-01-08 19:23:16,740 - INFO - _polling - Run polling for bot @SovtrudGorbushkaBot id=6674597359 - 'gorbushka'
+2024-01-08 19:23:53,862 - INFO - feed_update - Update id=539319747 is handled. Duration 390 ms by bot id=6674597359
+2024-01-08 19:23:56,768 - INFO - feed_update - Update id=539319748 is handled. Duration 250 ms by bot id=6674597359
+2024-01-08 19:24:24,105 - INFO - feed_update - Update id=539319749 is handled. Duration 484 ms by bot id=6674597359
+2024-01-08 19:24:29,712 - INFO - start_polling - Polling stopped
+2024-01-08 19:24:29,968 - INFO - _polling - Polling stopped for bot @SovtrudGorbushkaBot id=6674597359 - 'gorbushka'
+2024-01-08 19:25:05,321 - INFO - start_polling - Start polling
+2024-01-08 19:25:05,433 - INFO - _polling - Run polling for bot @SovtrudGorbushkaBot id=6674597359 - 'gorbushka'
+2024-01-08 19:25:08,649 - INFO - feed_update - Update id=539319750 is handled. Duration 500 ms by bot id=6674597359
+2024-01-08 19:25:13,677 - INFO - feed_update - Update id=539319751 is handled. Duration 359 ms by bot id=6674597359
+2024-01-08 19:25:15,880 - INFO - feed_update - Update id=539319752 is handled. Duration 437 ms by bot id=6674597359
+2024-01-08 19:25:17,048 - INFO - feed_update - Update id=539319753 is handled. Duration 296 ms by bot id=6674597359
+2024-01-08 19:25:19,087 - INFO - feed_update - Update id=539319754 is handled. Duration 500 ms by bot id=6674597359
+2024-01-08 19:25:20,828 - INFO - feed_update - Update id=539319755 is handled. Duration 484 ms by bot id=6674597359
+2024-01-08 19:25:22,169 - INFO - feed_update - Update id=539319756 is handled. Duration 500 ms by bot id=6674597359
+2024-01-08 19:25:29,893 - INFO - start_polling - Polling stopped
+2024-01-08 19:25:30,169 - INFO - _polling - Polling stopped for bot @SovtrudGorbushkaBot id=6674597359 - 'gorbushka'
+2024-01-08 19:25:32,486 - INFO - start_polling - Start polling
+2024-01-08 19:25:32,592 - INFO - _polling - Run polling for bot @SovtrudGorbushkaBot id=6674597359 - 'gorbushka'
+2024-01-08 19:25:36,465 - INFO - feed_update - Update id=539319757 is handled. Duration 452 ms by bot id=6674597359
+2024-01-08 19:26:05,426 - INFO - start_polling - Polling stopped
+2024-01-08 19:26:05,679 - INFO - _polling - Polling stopped for bot @SovtrudGorbushkaBot id=6674597359 - 'gorbushka'
+2024-01-08 19:26:08,116 - INFO - start_polling - Start polling
+2024-01-08 19:26:08,225 - INFO - _polling - Run polling for bot @SovtrudGorbushkaBot id=6674597359 - 'gorbushka'
+2024-01-08 19:26:15,141 - INFO - feed_update - Update id=539319759 is handled. Duration 375 ms by bot id=6674597359
+2024-01-08 19:26:26,165 - INFO - start_polling - Polling stopped
+2024-01-08 19:26:26,436 - INFO - _polling - Polling stopped for bot @SovtrudGorbushkaBot id=6674597359 - 'gorbushka'
+2024-01-08 19:26:29,178 - INFO - start_polling - Start polling
+2024-01-08 19:26:29,616 - INFO - _polling - Run polling for bot @SovtrudGorbushkaBot id=6674597359 - 'gorbushka'
+2024-01-08 19:26:30,830 - INFO - feed_update - Update id=539319761 is handled. Duration 421 ms by bot id=6674597359
+2024-01-08 19:27:03,488 - INFO - start_polling - Polling stopped
+2024-01-08 19:27:03,743 - INFO - _polling - Polling stopped for bot @SovtrudGorbushkaBot id=6674597359 - 'gorbushka'
+2024-01-08 19:29:13,842 - INFO - start_polling - Start polling
+2024-01-08 19:29:13,939 - INFO - _polling - Run polling for bot @SovtrudGorbushkaBot id=6674597359 - 'gorbushka'
+2024-01-08 19:29:15,706 - INFO - feed_update - Update id=539319762 is handled. Duration 436 ms by bot id=6674597359
+2024-01-08 19:31:40,097 - INFO - start_polling - Polling stopped
+2024-01-08 19:31:40,362 - INFO - _polling - Polling stopped for bot @SovtrudGorbushkaBot id=6674597359 - 'gorbushka'
+2024-01-08 19:39:01,399 - INFO - start_polling - Start polling
+2024-01-08 19:39:01,525 - INFO - _polling - Run polling for bot @SovtrudGorbushkaBot id=6674597359 - 'gorbushka'
+2024-01-08 19:39:09,290 - INFO - feed_update - Update id=539319763 is handled. Duration 421 ms by bot id=6674597359
+2024-01-08 19:39:11,244 - INFO - feed_update - Update id=539319764 is handled. Duration 468 ms by bot id=6674597359
+2024-01-08 19:39:45,071 - INFO - feed_update - Update id=539319765 is handled. Duration 546 ms by bot id=6674597359
+2024-01-08 19:40:44,151 - INFO - start_polling - Polling stopped
+2024-01-08 19:40:44,416 - INFO - _polling - Polling stopped for bot @SovtrudGorbushkaBot id=6674597359 - 'gorbushka'
+2024-01-08 19:40:46,780 - INFO - start_polling - Start polling
+2024-01-08 19:40:46,887 - INFO - _polling - Run polling for bot @SovtrudGorbushkaBot id=6674597359 - 'gorbushka'
+2024-01-08 19:40:47,537 - INFO - feed_update - Update id=539319766 is handled. Duration 546 ms by bot id=6674597359
+2024-01-08 19:40:49,516 - INFO - feed_update - Update id=539319767 is handled. Duration 483 ms by bot id=6674597359
+2024-01-08 19:42:10,910 - INFO - start_polling - Polling stopped
+2024-01-08 19:42:11,176 - INFO - _polling - Polling stopped for bot @SovtrudGorbushkaBot id=6674597359 - 'gorbushka'
+2024-01-08 19:43:04,308 - INFO - start_polling - Start polling
+2024-01-08 19:43:04,406 - INFO - _polling - Run polling for bot @SovtrudGorbushkaBot id=6674597359 - 'gorbushka'
+2024-01-08 19:43:11,005 - INFO - feed_update - Update id=539319768 is handled. Duration 375 ms by bot id=6674597359
+2024-01-08 19:43:11,946 - INFO - feed_update - Update id=539319769 is handled. Duration 156 ms by bot id=6674597359
+2024-01-08 19:43:24,626 - INFO - feed_update - Update id=539319770 is handled. Duration 140 ms by bot id=6674597359
+2024-01-08 19:43:25,756 - INFO - feed_update - Update id=539319771 is handled. Duration 140 ms by bot id=6674597359
+2024-01-08 19:44:00,882 - INFO - start_polling - Polling stopped
+2024-01-08 19:44:01,138 - INFO - _polling - Polling stopped for bot @SovtrudGorbushkaBot id=6674597359 - 'gorbushka'
+2024-01-08 20:49:03,827 - INFO - start_polling - Start polling
+2024-01-08 20:49:03,949 - INFO - _polling - Run polling for bot @SovtrudGorbushkaBot id=6674597359 - 'gorbushka'
+2024-01-08 20:49:20,067 - INFO - feed_update - Update id=539319772 is handled. Duration 593 ms by bot id=6674597359
+2024-01-08 20:52:21,804 - INFO - start_polling - Polling stopped
+2024-01-08 20:52:22,056 - INFO - _polling - Polling stopped for bot @SovtrudGorbushkaBot id=6674597359 - 'gorbushka'
+2024-01-08 20:52:46,482 - INFO - start_polling - Start polling
+2024-01-08 20:52:46,585 - INFO - _polling - Run polling for bot @SovtrudGorbushkaBot id=6674597359 - 'gorbushka'
+2024-01-08 20:52:50,287 - INFO - feed_update - Update id=539319774 is handled. Duration 561 ms by bot id=6674597359
+2024-01-08 20:52:53,533 - INFO - feed_update - Update id=539319775 is handled. Duration 453 ms by bot id=6674597359
+2024-01-08 20:53:09,729 - INFO - start_polling - Polling stopped
+2024-01-08 20:53:09,987 - INFO - _polling - Polling stopped for bot @SovtrudGorbushkaBot id=6674597359 - 'gorbushka'
+2024-01-08 20:53:12,693 - INFO - start_polling - Start polling
+2024-01-08 20:53:12,792 - INFO - _polling - Run polling for bot @SovtrudGorbushkaBot id=6674597359 - 'gorbushka'
+2024-01-08 20:53:13,964 - INFO - feed_update - Update id=539319776 is handled. Duration 577 ms by bot id=6674597359
+2024-01-08 20:53:26,597 - INFO - start_polling - Polling stopped
+2024-01-08 20:53:26,852 - INFO - _polling - Polling stopped for bot @SovtrudGorbushkaBot id=6674597359 - 'gorbushka'
+2024-01-08 20:53:29,367 - INFO - start_polling - Start polling
+2024-01-08 20:53:29,468 - INFO - _polling - Run polling for bot @SovtrudGorbushkaBot id=6674597359 - 'gorbushka'
+2024-01-08 20:53:31,399 - INFO - feed_update - Update id=539319778 is handled. Duration 547 ms by bot id=6674597359
+2024-01-08 20:53:45,634 - INFO - start_polling - Polling stopped
+2024-01-08 20:53:45,894 - INFO - _polling - Polling stopped for bot @SovtrudGorbushkaBot id=6674597359 - 'gorbushka'
+2024-01-08 20:53:48,624 - INFO - start_polling - Start polling
+2024-01-08 20:53:48,730 - INFO - _polling - Run polling for bot @SovtrudGorbushkaBot id=6674597359 - 'gorbushka'
+2024-01-08 20:53:51,091 - INFO - feed_update - Update id=539319780 is handled. Duration 515 ms by bot id=6674597359
+2024-01-08 20:54:02,010 - INFO - start_polling - Polling stopped
+2024-01-08 20:54:02,270 - INFO - _polling - Polling stopped for bot @SovtrudGorbushkaBot id=6674597359 - 'gorbushka'
+2024-01-08 20:54:04,728 - INFO - start_polling - Start polling
+2024-01-08 20:54:04,825 - INFO - _polling - Run polling for bot @SovtrudGorbushkaBot id=6674597359 - 'gorbushka'
+2024-01-08 20:54:05,608 - INFO - feed_update - Update id=539319781 is handled. Duration 577 ms by bot id=6674597359
+2024-01-08 20:54:16,134 - INFO - start_polling - Polling stopped
+2024-01-08 20:54:16,397 - INFO - _polling - Polling stopped for bot @SovtrudGorbushkaBot id=6674597359 - 'gorbushka'
+2024-01-08 21:03:17,151 - INFO - start_polling - Start polling
+2024-01-08 21:03:17,270 - INFO - _polling - Run polling for bot @SovtrudGorbushkaBot id=6674597359 - 'gorbushka'
+2024-01-08 21:03:31,056 - INFO - feed_update - Update id=539319782 is handled. Duration 577 ms by bot id=6674597359
+2024-01-08 21:08:07,069 - INFO - start_polling - Polling stopped
+2024-01-08 21:08:07,321 - INFO - _polling - Polling stopped for bot @SovtrudGorbushkaBot id=6674597359 - 'gorbushka'
+2024-01-08 21:10:13,149 - INFO - start_polling - Start polling
+2024-01-08 21:10:13,261 - INFO - _polling - Run polling for bot @SovtrudGorbushkaBot id=6674597359 - 'gorbushka'
+2024-01-08 21:10:17,436 - INFO - feed_update - Update id=539319783 is handled. Duration 797 ms by bot id=6674597359
+2024-01-08 21:10:24,104 - INFO - feed_update - Update id=539319784 is handled. Duration 391 ms by bot id=6674597359
+2024-01-08 21:10:42,346 - INFO - feed_update - Update id=539319785 is handled. Duration 656 ms by bot id=6674597359
+2024-01-08 21:10:49,242 - INFO - feed_update - Update id=539319786 is handled. Duration 328 ms by bot id=6674597359
+2024-01-08 21:10:58,606 - INFO - feed_update - Update id=539319787 is handled. Duration 594 ms by bot id=6674597359
+2024-01-08 21:11:17,684 - INFO - feed_update - Update id=539319788 is handled. Duration 577 ms by bot id=6674597359
+2024-01-08 21:11:34,731 - INFO - start_polling - Polling stopped
+2024-01-08 21:11:34,975 - INFO - _polling - Polling stopped for bot @SovtrudGorbushkaBot id=6674597359 - 'gorbushka'
+2024-01-09 22:57:11,730 - INFO - start_polling - Start polling
+2024-01-09 22:57:11,834 - INFO - _polling - Run polling for bot @SovtrudGorbushkaBot id=6674597359 - 'gorbushka'
+2024-01-09 22:57:35,381 - INFO - feed_update - Update id=539319789 is handled. Duration 640 ms by bot id=6674597359
+2024-01-09 22:57:37,197 - INFO - feed_update - Update id=539319790 is handled. Duration 468 ms by bot id=6674597359
+2024-01-09 22:58:36,051 - INFO - start_polling - Polling stopped
+2024-01-09 22:58:36,311 - INFO - _polling - Polling stopped for bot @SovtrudGorbushkaBot id=6674597359 - 'gorbushka'
+2024-01-09 22:58:38,979 - INFO - start_polling - Start polling
+2024-01-09 22:58:39,083 - INFO - _polling - Run polling for bot @SovtrudGorbushkaBot id=6674597359 - 'gorbushka'
+2024-01-09 22:58:40,448 - INFO - feed_update - Update id=539319791 is handled. Duration 609 ms by bot id=6674597359
+2024-01-09 22:59:07,355 - INFO - start_polling - Polling stopped
+2024-01-09 22:59:07,617 - INFO - _polling - Polling stopped for bot @SovtrudGorbushkaBot id=6674597359 - 'gorbushka'
+2024-01-09 22:59:10,376 - INFO - start_polling - Start polling
+2024-01-09 22:59:10,478 - INFO - _polling - Run polling for bot @SovtrudGorbushkaBot id=6674597359 - 'gorbushka'
+2024-01-09 22:59:13,565 - INFO - feed_update - Update id=539319793 is handled. Duration 547 ms by bot id=6674597359
+2024-01-09 23:00:14,235 - INFO - start_polling - Polling stopped
+2024-01-09 23:00:14,500 - INFO - _polling - Polling stopped for bot @SovtrudGorbushkaBot id=6674597359 - 'gorbushka'
+2024-01-09 23:00:17,411 - INFO - start_polling - Start polling
+2024-01-09 23:00:17,513 - INFO - _polling - Run polling for bot @SovtrudGorbushkaBot id=6674597359 - 'gorbushka'
+2024-01-09 23:00:20,179 - INFO - feed_update - Update id=539319794 is handled. Duration 875 ms by bot id=6674597359
+2024-01-09 23:00:22,056 - INFO - feed_update - Update id=539319795 is handled. Duration 125 ms by bot id=6674597359
+2024-01-09 23:00:27,925 - INFO - start_polling - Polling stopped
+2024-01-09 23:00:28,187 - INFO - _polling - Polling stopped for bot @SovtrudGorbushkaBot id=6674597359 - 'gorbushka'
+2024-01-09 23:07:44,491 - INFO - start_polling - Start polling
+2024-01-09 23:07:44,589 - INFO - _polling - Run polling for bot @SovtrudGorbushkaBot id=6674597359 - 'gorbushka'
+2024-01-09 23:07:49,876 - INFO - feed_update - Update id=539319796 is handled. Duration 547 ms by bot id=6674597359
+2024-01-09 23:07:51,098 - INFO - feed_update - Update id=539319797 is not handled. Duration 16 ms by bot id=6674597359
+2024-01-09 23:07:51,098 - ERROR - _process_update - Cause exception while process update id=539319797 by bot id=6674597359
+TypeError: callbacks_first_currency_chosen() got multiple values for argument 'state'
+Traceback (most recent call last):
+  File "C:\Users\Nikita\PycharmProjects\pythonProject\51_exchange_rates_bot\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\pythonProject\51_exchange_rates_bot\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\pythonProject\51_exchange_rates_bot\venv\Lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\pythonProject\51_exchange_rates_bot\venv\Lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 27, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\AppData\Local\Programs\Python\Python311\Lib\contextlib.py", line 222, in __aexit__
+    await self.gen.athrow(typ, value, traceback)
+  File "C:\Users\Nikita\PycharmProjects\pythonProject\51_exchange_rates_bot\venv\Lib\site-packages\aiogram\fsm\storage\memory.py", line 56, in lock
+    yield
+  File "C:\Users\Nikita\PycharmProjects\pythonProject\51_exchange_rates_bot\venv\Lib\site-packages\aiogram\fsm\middleware.py", line 41, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\pythonProject\51_exchange_rates_bot\venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\pythonProject\51_exchange_rates_bot\venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\pythonProject\51_exchange_rates_bot\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\pythonProject\51_exchange_rates_bot\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 116, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\pythonProject\51_exchange_rates_bot\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 111, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\pythonProject\51_exchange_rates_bot\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 144, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\pythonProject\51_exchange_rates_bot\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 116, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\pythonProject\51_exchange_rates_bot\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 111, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\pythonProject\51_exchange_rates_bot\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 136, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\pythonProject\51_exchange_rates_bot\venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\pythonProject\51_exchange_rates_bot\venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+                 ^^^^^^^^^
+TypeError: callbacks_first_currency_chosen() got multiple values for argument 'state'
+2024-01-09 23:10:35,065 - INFO - start_polling - Polling stopped
+2024-01-09 23:10:35,327 - INFO - _polling - Polling stopped for bot @SovtrudGorbushkaBot id=6674597359 - 'gorbushka'
+2024-01-09 23:10:37,737 - INFO - start_polling - Start polling
+2024-01-09 23:10:37,854 - INFO - _polling - Run polling for bot @SovtrudGorbushkaBot id=6674597359 - 'gorbushka'
+2024-01-09 23:10:42,443 - INFO - feed_update - Update id=539319798 is handled. Duration 859 ms by bot id=6674597359
+2024-01-09 23:10:43,926 - INFO - feed_update - Update id=539319799 is not handled. Duration 16 ms by bot id=6674597359
+2024-01-09 23:10:43,926 - ERROR - _process_update - Cause exception while process update id=539319799 by bot id=6674597359
+TypeError: callbacks_first_currency_chosen() got multiple values for argument 'state'
+Traceback (most recent call last):
+  File "C:\Users\Nikita\PycharmProjects\pythonProject\51_exchange_rates_bot\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\pythonProject\51_exchange_rates_bot\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\pythonProject\51_exchange_rates_bot\venv\Lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\pythonProject\51_exchange_rates_bot\venv\Lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 27, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\AppData\Local\Programs\Python\Python311\Lib\contextlib.py", line 222, in __aexit__
+    await self.gen.athrow(typ, value, traceback)
+  File "C:\Users\Nikita\PycharmProjects\pythonProject\51_exchange_rates_bot\venv\Lib\site-packages\aiogram\fsm\storage\memory.py", line 56, in lock
+    yield
+  File "C:\Users\Nikita\PycharmProjects\pythonProject\51_exchange_rates_bot\venv\Lib\site-packages\aiogram\fsm\middleware.py", line 41, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\pythonProject\51_exchange_rates_bot\venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\pythonProject\51_exchange_rates_bot\venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\pythonProject\51_exchange_rates_bot\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\pythonProject\51_exchange_rates_bot\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 116, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\pythonProject\51_exchange_rates_bot\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 111, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\pythonProject\51_exchange_rates_bot\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 144, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\pythonProject\51_exchange_rates_bot\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 116, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\pythonProject\51_exchange_rates_bot\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 111, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\pythonProject\51_exchange_rates_bot\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 136, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\pythonProject\51_exchange_rates_bot\venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\pythonProject\51_exchange_rates_bot\venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+                 ^^^^^^^^^
+TypeError: callbacks_first_currency_chosen() got multiple values for argument 'state'
+2024-01-09 23:11:12,739 - INFO - start_polling - Polling stopped
+2024-01-09 23:11:13,003 - INFO - _polling - Polling stopped for bot @SovtrudGorbushkaBot id=6674597359 - 'gorbushka'
+2024-01-09 23:11:15,898 - INFO - start_polling - Start polling
+2024-01-09 23:11:16,002 - INFO - _polling - Run polling for bot @SovtrudGorbushkaBot id=6674597359 - 'gorbushka'
+2024-01-09 23:11:18,107 - INFO - feed_update - Update id=539319801 is handled. Duration 594 ms by bot id=6674597359
+2024-01-09 23:11:19,375 - INFO - feed_update - Update id=539319802 is not handled. Duration 0 ms by bot id=6674597359
+2024-01-09 23:11:19,375 - ERROR - _process_update - Cause exception while process update id=539319802 by bot id=6674597359
+TypeError: callbacks_first_currency_chosen() got multiple values for argument 'state'
+Traceback (most recent call last):
+  File "C:\Users\Nikita\PycharmProjects\pythonProject\51_exchange_rates_bot\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\pythonProject\51_exchange_rates_bot\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\pythonProject\51_exchange_rates_bot\venv\Lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\pythonProject\51_exchange_rates_bot\venv\Lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 27, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\AppData\Local\Programs\Python\Python311\Lib\contextlib.py", line 222, in __aexit__
+    await self.gen.athrow(typ, value, traceback)
+  File "C:\Users\Nikita\PycharmProjects\pythonProject\51_exchange_rates_bot\venv\Lib\site-packages\aiogram\fsm\storage\memory.py", line 56, in lock
+    yield
+  File "C:\Users\Nikita\PycharmProjects\pythonProject\51_exchange_rates_bot\venv\Lib\site-packages\aiogram\fsm\middleware.py", line 41, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\pythonProject\51_exchange_rates_bot\venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\pythonProject\51_exchange_rates_bot\venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\pythonProject\51_exchange_rates_bot\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\pythonProject\51_exchange_rates_bot\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 116, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\pythonProject\51_exchange_rates_bot\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 111, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\pythonProject\51_exchange_rates_bot\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 144, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\pythonProject\51_exchange_rates_bot\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 116, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\pythonProject\51_exchange_rates_bot\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 111, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\pythonProject\51_exchange_rates_bot\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 136, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\pythonProject\51_exchange_rates_bot\venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\pythonProject\51_exchange_rates_bot\venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+                 ^^^^^^^^^
+TypeError: callbacks_first_currency_chosen() got multiple values for argument 'state'
+2024-01-09 23:14:28,142 - INFO - start_polling - Polling stopped
+2024-01-09 23:14:28,406 - INFO - _polling - Polling stopped for bot @SovtrudGorbushkaBot id=6674597359 - 'gorbushka'
+2024-01-09 23:14:30,739 - INFO - start_polling - Start polling
+2024-01-09 23:14:30,846 - INFO - _polling - Run polling for bot @SovtrudGorbushkaBot id=6674597359 - 'gorbushka'
+2024-01-09 23:14:37,135 - INFO - feed_update - Update id=539319803 is handled. Duration 500 ms by bot id=6674597359
+2024-01-09 23:14:38,653 - INFO - feed_update - Update id=539319804 is handled. Duration 235 ms by bot id=6674597359
+2024-01-09 23:15:35,655 - INFO - start_polling - Polling stopped
+2024-01-09 23:15:35,914 - INFO - _polling - Polling stopped for bot @SovtrudGorbushkaBot id=6674597359 - 'gorbushka'
+2024-01-09 23:16:02,115 - INFO - start_polling - Start polling
+2024-01-09 23:16:02,219 - INFO - _polling - Run polling for bot @SovtrudGorbushkaBot id=6674597359 - 'gorbushka'
+2024-01-09 23:16:03,792 - INFO - feed_update - Update id=539319805 is handled. Duration 546 ms by bot id=6674597359
+2024-01-09 23:16:05,879 - INFO - feed_update - Update id=539319806 is handled. Duration 594 ms by bot id=6674597359
+2024-01-09 23:16:12,026 - INFO - feed_update - Update id=539319807 is not handled. Duration 0 ms by bot id=6674597359
+2024-01-09 23:17:56,611 - INFO - start_polling - Polling stopped
+2024-01-09 23:17:56,864 - INFO - _polling - Polling stopped for bot @SovtrudGorbushkaBot id=6674597359 - 'gorbushka'
+2024-01-09 23:26:53,912 - INFO - start_polling - Start polling
+2024-01-09 23:26:54,015 - INFO - _polling - Run polling for bot @SovtrudGorbushkaBot id=6674597359 - 'gorbushka'
+2024-01-09 23:27:11,261 - INFO - feed_update - Update id=539319808 is handled. Duration 655 ms by bot id=6674597359
+2024-01-09 23:27:12,635 - INFO - feed_update - Update id=539319809 is handled. Duration 265 ms by bot id=6674597359
+2024-01-09 23:27:14,760 - INFO - feed_update - Update id=539319810 is handled. Duration 265 ms by bot id=6674597359
+2024-01-09 23:27:17,994 - INFO - feed_update - Update id=539319811 is handled. Duration 312 ms by bot id=6674597359
+2024-01-09 23:27:48,444 - INFO - feed_update - Update id=539319812 is handled. Duration 515 ms by bot id=6674597359
+2024-01-09 23:27:50,446 - INFO - feed_update - Update id=539319813 is handled. Duration 250 ms by bot id=6674597359
+2024-01-09 23:27:53,749 - INFO - feed_update - Update id=539319814 is handled. Duration 297 ms by bot id=6674597359
+2024-01-09 23:27:57,162 - INFO - feed_update - Update id=539319815 is handled. Duration 405 ms by bot id=6674597359
+2024-01-09 23:27:59,729 - INFO - feed_update - Update id=539319816 is handled. Duration 422 ms by bot id=6674597359
+2024-01-09 23:28:02,605 - INFO - feed_update - Update id=539319817 is handled. Duration 375 ms by bot id=6674597359
+2024-01-09 23:28:58,705 - INFO - start_polling - Polling stopped
+2024-01-09 23:28:58,966 - INFO - _polling - Polling stopped for bot @SovtrudGorbushkaBot id=6674597359 - 'gorbushka'
+2024-01-09 23:29:33,520 - INFO - start_polling - Start polling
+2024-01-09 23:29:33,615 - INFO - _polling - Run polling for bot @SovtrudGorbushkaBot id=6674597359 - 'gorbushka'
+2024-01-09 23:29:38,626 - INFO - feed_update - Update id=539319818 is handled. Duration 562 ms by bot id=6674597359
+2024-01-09 23:29:40,786 - INFO - feed_update - Update id=539319819 is handled. Duration 327 ms by bot id=6674597359
+2024-01-09 23:29:54,134 - INFO - feed_update - Update id=539319820 is handled. Duration 390 ms by bot id=6674597359
+2024-01-09 23:30:23,994 - INFO - feed_update - Update id=539319821 is handled. Duration 531 ms by bot id=6674597359
+2024-01-09 23:30:27,740 - INFO - feed_update - Update id=539319822 is handled. Duration 297 ms by bot id=6674597359
+2024-01-09 23:30:35,522 - INFO - feed_update - Update id=539319823 is handled. Duration 281 ms by bot id=6674597359
+2024-01-09 23:30:39,998 - INFO - feed_update - Update id=539319824 is handled. Duration 437 ms by bot id=6674597359
+2024-01-09 23:30:41,697 - INFO - feed_update - Update id=539319825 is handled. Duration 312 ms by bot id=6674597359
+2024-01-09 23:30:43,971 - INFO - feed_update - Update id=539319826 is handled. Duration 390 ms by bot id=6674597359
+2024-01-09 23:30:47,880 - INFO - feed_update - Update id=539319827 is handled. Duration 437 ms by bot id=6674597359
+2024-01-09 23:34:56,819 - INFO - start_polling - Polling stopped
+2024-01-09 23:34:57,072 - INFO - _polling - Polling stopped for bot @SovtrudGorbushkaBot id=6674597359 - 'gorbushka'
+2024-01-09 23:34:59,747 - INFO - start_polling - Start polling
+2024-01-09 23:34:59,842 - INFO - _polling - Run polling for bot @SovtrudGorbushkaBot id=6674597359 - 'gorbushka'
+2024-01-09 23:35:04,877 - INFO - feed_update - Update id=539319828 is handled. Duration 812 ms by bot id=6674597359
+2024-01-09 23:35:07,125 - INFO - feed_update - Update id=539319829 is handled. Duration 375 ms by bot id=6674597359
+2024-01-09 23:36:59,799 - INFO - start_polling - Polling stopped
+2024-01-09 23:37:00,056 - INFO - _polling - Polling stopped for bot @SovtrudGorbushkaBot id=6674597359 - 'gorbushka'
+2024-01-09 23:37:02,499 - INFO - start_polling - Start polling
+2024-01-09 23:37:02,607 - INFO - _polling - Run polling for bot @SovtrudGorbushkaBot id=6674597359 - 'gorbushka'
+2024-01-09 23:37:06,206 - INFO - feed_update - Update id=539319830 is handled. Duration 1140 ms by bot id=6674597359
+2024-01-09 23:37:08,920 - INFO - feed_update - Update id=539319831 is handled. Duration 327 ms by bot id=6674597359
+2024-01-09 23:40:10,970 - INFO - start_polling - Polling stopped
+2024-01-09 23:40:11,233 - INFO - _polling - Polling stopped for bot @SovtrudGorbushkaBot id=6674597359 - 'gorbushka'
+2024-01-09 23:40:13,639 - INFO - start_polling - Start polling
+2024-01-09 23:40:13,745 - INFO - _polling - Run polling for bot @SovtrudGorbushkaBot id=6674597359 - 'gorbushka'
+2024-01-09 23:40:16,765 - INFO - feed_update - Update id=539319832 is handled. Duration 655 ms by bot id=6674597359
+2024-01-09 23:40:19,292 - INFO - feed_update - Update id=539319833 is handled. Duration 280 ms by bot id=6674597359
+2024-01-09 23:40:21,681 - INFO - feed_update - Update id=539319834 is handled. Duration 280 ms by bot id=6674597359
+2024-01-09 23:40:41,062 - INFO - start_polling - Polling stopped
+2024-01-09 23:40:41,308 - INFO - _polling - Polling stopped for bot @SovtrudGorbushkaBot id=6674597359 - 'gorbushka'
+2024-01-09 23:42:44,077 - INFO - start_polling - Start polling
+2024-01-09 23:42:44,175 - INFO - _polling - Run polling for bot @SovtrudGorbushkaBot id=6674597359 - 'gorbushka'
+2024-01-09 23:42:52,525 - INFO - feed_update - Update id=539319835 is not handled. Duration 0 ms by bot id=6674597359
+2024-01-09 23:43:05,822 - INFO - feed_update - Update id=539319836 is not handled. Duration 0 ms by bot id=6674597359
+2024-01-09 23:43:07,653 - INFO - feed_update - Update id=539319837 is not handled. Duration 0 ms by bot id=6674597359
+2024-01-09 23:43:13,871 - INFO - feed_update - Update id=539319838 is handled. Duration 672 ms by bot id=6674597359
+2024-01-09 23:43:16,069 - INFO - feed_update - Update id=539319839 is handled. Duration 452 ms by bot id=6674597359
+2024-01-09 23:43:19,831 - INFO - feed_update - Update id=539319840 is handled. Duration 234 ms by bot id=6674597359
+2024-01-09 23:44:11,972 - INFO - start_polling - Polling stopped
+2024-01-09 23:44:12,236 - INFO - _polling - Polling stopped for bot @SovtrudGorbushkaBot id=6674597359 - 'gorbushka'
+2024-01-09 23:44:14,801 - INFO - start_polling - Start polling
+2024-01-09 23:44:14,910 - INFO - _polling - Run polling for bot @SovtrudGorbushkaBot id=6674597359 - 'gorbushka'
+2024-01-09 23:44:16,814 - INFO - feed_update - Update id=539319841 is handled. Duration 766 ms by bot id=6674597359
+2024-01-09 23:44:20,972 - INFO - feed_update - Update id=539319842 is handled. Duration 250 ms by bot id=6674597359
+2024-01-09 23:44:23,407 - INFO - feed_update - Update id=539319843 is handled. Duration 313 ms by bot id=6674597359
+2024-01-09 23:44:36,091 - INFO - feed_update - Update id=539319844 is not handled. Duration 0 ms by bot id=6674597359
+2024-01-09 23:44:38,363 - INFO - feed_update - Update id=539319845 is not handled. Duration 15 ms by bot id=6674597359
+2024-01-09 23:44:40,007 - INFO - feed_update - Update id=539319846 is not handled. Duration 0 ms by bot id=6674597359
+2024-01-09 23:44:40,781 - INFO - feed_update - Update id=539319847 is not handled. Duration 0 ms by bot id=6674597359
+2024-01-09 23:44:41,484 - INFO - feed_update - Update id=539319848 is not handled. Duration 0 ms by bot id=6674597359
+2024-01-09 23:44:42,074 - INFO - feed_update - Update id=539319849 is not handled. Duration 0 ms by bot id=6674597359
+2024-01-09 23:44:42,496 - INFO - feed_update - Update id=539319850 is not handled. Duration 0 ms by bot id=6674597359
+2024-01-09 23:44:43,095 - INFO - feed_update - Update id=539319851 is not handled. Duration 0 ms by bot id=6674597359
+2024-01-09 23:44:44,147 - INFO - feed_update - Update id=539319852 is not handled. Duration 0 ms by bot id=6674597359
+2024-01-09 23:55:11,839 - INFO - start_polling - Polling stopped
+2024-01-09 23:55:12,099 - INFO - _polling - Polling stopped for bot @SovtrudGorbushkaBot id=6674597359 - 'gorbushka'
+2024-01-09 23:55:14,439 - INFO - start_polling - Start polling
+2024-01-09 23:55:14,543 - INFO - _polling - Run polling for bot @SovtrudGorbushkaBot id=6674597359 - 'gorbushka'
+2024-01-09 23:55:21,894 - INFO - feed_update - Update id=539319853 is handled. Duration 328 ms by bot id=6674597359
+2024-01-09 23:55:23,640 - INFO - feed_update - Update id=539319854 is handled. Duration 140 ms by bot id=6674597359
+2024-01-09 23:55:25,113 - INFO - feed_update - Update id=539319855 is handled. Duration 218 ms by bot id=6674597359
+2024-01-09 23:55:26,167 - INFO - feed_update - Update id=539319856 is handled. Duration 202 ms by bot id=6674597359
+2024-01-09 23:55:27,992 - INFO - feed_update - Update id=539319857 is handled. Duration 281 ms by bot id=6674597359
+2024-01-09 23:55:29,321 - INFO - feed_update - Update id=539319858 is handled. Duration 265 ms by bot id=6674597359
+2024-01-09 23:55:30,815 - INFO - feed_update - Update id=539319859 is handled. Duration 234 ms by bot id=6674597359
+2024-01-09 23:55:33,553 - INFO - feed_update - Update id=539319860 is handled. Duration 109 ms by bot id=6674597359
+2024-01-09 23:55:37,998 - INFO - feed_update - Update id=539319861 is handled. Duration 422 ms by bot id=6674597359
+2024-01-09 23:55:44,653 - INFO - start_polling - Polling stopped
+2024-01-09 23:55:44,909 - INFO - _polling - Polling stopped for bot @SovtrudGorbushkaBot id=6674597359 - 'gorbushka'
+2024-01-09 23:57:56,734 - INFO - start_polling - Start polling
+2024-01-09 23:57:56,828 - INFO - _polling - Run polling for bot @SovtrudGorbushkaBot id=6674597359 - 'gorbushka'
+2024-01-09 23:58:03,419 - INFO - feed_update - Update id=539319862 is handled. Duration 343 ms by bot id=6674597359
+2024-01-09 23:58:05,620 - INFO - feed_update - Update id=539319863 is handled. Duration 359 ms by bot id=6674597359
+2024-01-09 23:58:11,990 - INFO - feed_update - Update id=539319864 is handled. Duration 343 ms by bot id=6674597359
+2024-01-09 23:58:13,265 - INFO - feed_update - Update id=539319865 is handled. Duration 250 ms by bot id=6674597359
+2024-01-09 23:58:15,796 - INFO - feed_update - Update id=539319866 is handled. Duration 125 ms by bot id=6674597359
+2024-01-09 23:58:17,728 - INFO - feed_update - Update id=539319867 is handled. Duration 484 ms by bot id=6674597359
+2024-01-09 23:58:20,723 - INFO - feed_update - Update id=539319868 is handled. Duration 359 ms by bot id=6674597359
+2024-01-09 23:58:22,096 - INFO - feed_update - Update id=539319869 is handled. Duration 358 ms by bot id=6674597359
+2024-01-09 23:58:30,680 - INFO - start_polling - Polling stopped
+2024-01-09 23:58:30,940 - INFO - _polling - Polling stopped for bot @SovtrudGorbushkaBot id=6674597359 - 'gorbushka'
+2024-01-12 21:46:46,686 - INFO - start_polling - Start polling
+2024-01-12 21:46:46,791 - INFO - _polling - Run polling for bot @SovtrudGorbushkaBot id=6674597359 - 'gorbushka'
+2024-01-12 21:47:04,998 - INFO - feed_update - Update id=539319870 is handled. Duration 578 ms by bot id=6674597359
+2024-01-12 21:47:07,703 - INFO - feed_update - Update id=539319871 is handled. Duration 671 ms by bot id=6674597359
+2024-01-12 21:47:10,198 - INFO - feed_update - Update id=539319872 is handled. Duration 344 ms by bot id=6674597359
+2024-01-12 21:47:12,446 - INFO - feed_update - Update id=539319873 is handled. Duration 530 ms by bot id=6674597359
+2024-01-12 21:47:13,770 - INFO - feed_update - Update id=539319874 is handled. Duration 328 ms by bot id=6674597359
+2024-01-12 21:47:16,215 - INFO - feed_update - Update id=539319875 is handled. Duration 407 ms by bot id=6674597359
+2024-01-12 21:47:49,168 - INFO - feed_update - Update id=539319876 is handled. Duration 702 ms by bot id=6674597359
+2024-01-12 21:48:17,916 - INFO - feed_update - Update id=539319877 is handled. Duration 469 ms by bot id=6674597359
+2024-01-12 21:48:19,693 - INFO - feed_update - Update id=539319878 is handled. Duration 280 ms by bot id=6674597359
+2024-01-12 21:48:21,736 - INFO - feed_update - Update id=539319879 is handled. Duration 389 ms by bot id=6674597359
+2024-01-12 21:48:23,176 - INFO - feed_update - Update id=539319880 is handled. Duration 265 ms by bot id=6674597359
+2024-01-12 21:48:32,690 - INFO - feed_update - Update id=539319881 is handled. Duration 296 ms by bot id=6674597359
+2024-01-12 21:58:29,679 - INFO - start_polling - Polling stopped
+2024-01-12 21:58:29,937 - INFO - _polling - Polling stopped for bot @SovtrudGorbushkaBot id=6674597359 - 'gorbushka'
+2024-01-12 22:01:51,955 - INFO - start_polling - Start polling
+2024-01-12 22:01:52,056 - INFO - _polling - Run polling for bot @SovtrudGorbushkaBot id=6674597359 - 'gorbushka'
+2024-01-12 22:01:57,060 - INFO - feed_update - Update id=539319882 is not handled. Duration 484 ms by bot id=6674597359
+2024-01-12 22:01:57,060 - ERROR - _process_update - Cause exception while process update id=539319882 by bot id=6674597359
+TypeError: KeyboardBuilder.button() takes 1 positional argument but 2 were given
+Traceback (most recent call last):
+  File "C:\Users\Nikita\PycharmProjects\pythonProject\51_exchange_rates_bot\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\pythonProject\51_exchange_rates_bot\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\pythonProject\51_exchange_rates_bot\venv\Lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\pythonProject\51_exchange_rates_bot\venv\Lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 27, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\AppData\Local\Programs\Python\Python311\Lib\contextlib.py", line 222, in __aexit__
+    await self.gen.athrow(typ, value, traceback)
+  File "C:\Users\Nikita\PycharmProjects\pythonProject\51_exchange_rates_bot\venv\Lib\site-packages\aiogram\fsm\storage\memory.py", line 56, in lock
+    yield
+  File "C:\Users\Nikita\PycharmProjects\pythonProject\51_exchange_rates_bot\venv\Lib\site-packages\aiogram\fsm\middleware.py", line 41, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\pythonProject\51_exchange_rates_bot\venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\pythonProject\51_exchange_rates_bot\venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\pythonProject\51_exchange_rates_bot\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\pythonProject\51_exchange_rates_bot\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 116, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\pythonProject\51_exchange_rates_bot\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 111, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\pythonProject\51_exchange_rates_bot\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 144, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\pythonProject\51_exchange_rates_bot\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 116, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\pythonProject\51_exchange_rates_bot\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 111, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\pythonProject\51_exchange_rates_bot\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 136, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\pythonProject\51_exchange_rates_bot\venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\pythonProject\51_exchange_rates_bot\venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\pythonProject\51_exchange_rates_bot\handlers\common.py", line 34, in cmd_start
+    keyboard = get_inline_keyboard(buttons, [2])
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\pythonProject\51_exchange_rates_bot\keyboards\keyboards.py", line 39, in get_inline_keyboard
+    builder.button('—‡ÈÚ ÷¡ –‘', url='https://www.cbr.ru/')
+TypeError: KeyboardBuilder.button() takes 1 positional argument but 2 were given
+2024-01-12 22:02:12,628 - INFO - start_polling - Polling stopped
+2024-01-12 22:02:12,885 - INFO - _polling - Polling stopped for bot @SovtrudGorbushkaBot id=6674597359 - 'gorbushka'
+2024-01-12 22:02:47,747 - INFO - start_polling - Start polling
+2024-01-12 22:02:47,871 - INFO - _polling - Run polling for bot @SovtrudGorbushkaBot id=6674597359 - 'gorbushka'
+2024-01-12 22:02:48,602 - INFO - feed_update - Update id=539319883 is handled. Duration 610 ms by bot id=6674597359
+2024-01-12 22:04:09,281 - INFO - start_polling - Polling stopped
+2024-01-12 22:04:09,536 - INFO - _polling - Polling stopped for bot @SovtrudGorbushkaBot id=6674597359 - 'gorbushka'
+2024-01-12 22:04:11,912 - INFO - start_polling - Start polling
+2024-01-12 22:04:12,012 - INFO - _polling - Run polling for bot @SovtrudGorbushkaBot id=6674597359 - 'gorbushka'
+2024-01-12 22:04:13,187 - INFO - feed_update - Update id=539319884 is handled. Duration 780 ms by bot id=6674597359
+2024-01-12 22:04:19,828 - INFO - feed_update - Update id=539319885 is handled. Duration 375 ms by bot id=6674597359
+2024-01-12 22:04:21,994 - INFO - feed_update - Update id=539319886 is handled. Duration 264 ms by bot id=6674597359
+2024-01-12 22:05:29,483 - INFO - start_polling - Polling stopped
+2024-01-12 22:05:29,741 - INFO - _polling - Polling stopped for bot @SovtrudGorbushkaBot id=6674597359 - 'gorbushka'
+2024-01-12 22:05:32,315 - INFO - start_polling - Start polling
+2024-01-12 22:05:32,414 - INFO - _polling - Run polling for bot @SovtrudGorbushkaBot id=6674597359 - 'gorbushka'
+2024-01-12 22:05:35,228 - INFO - feed_update - Update id=539319887 is handled. Duration 578 ms by bot id=6674597359
+2024-01-12 22:05:38,061 - INFO - feed_update - Update id=539319888 is handled. Duration 390 ms by bot id=6674597359
+2024-01-12 22:05:41,611 - INFO - feed_update - Update id=539319889 is handled. Duration 796 ms by bot id=6674597359
+2024-01-12 22:05:43,206 - INFO - feed_update - Update id=539319890 is handled. Duration 1015 ms by bot id=6674597359
+2024-01-12 22:05:49,332 - INFO - feed_update - Update id=539319891 is handled. Duration 796 ms by bot id=6674597359
+2024-01-12 22:06:01,429 - INFO - feed_update - Update id=539319892 is handled. Duration 313 ms by bot id=6674597359
+2024-01-12 22:06:57,612 - INFO - start_polling - Polling stopped
+2024-01-12 22:06:57,866 - INFO - _polling - Polling stopped for bot @SovtrudGorbushkaBot id=6674597359 - 'gorbushka'
+2024-01-12 22:07:00,436 - INFO - start_polling - Start polling
+2024-01-12 22:07:00,543 - INFO - _polling - Run polling for bot @SovtrudGorbushkaBot id=6674597359 - 'gorbushka'
+2024-01-12 22:07:03,708 - INFO - feed_update - Update id=539319893 is handled. Duration 577 ms by bot id=6674597359
+2024-01-12 22:07:06,241 - INFO - feed_update - Update id=539319894 is handled. Duration 577 ms by bot id=6674597359
+2024-01-12 22:07:09,957 - INFO - feed_update - Update id=539319895 is handled. Duration 344 ms by bot id=6674597359
+2024-01-12 22:07:31,430 - INFO - feed_update - Update id=539319896 is handled. Duration 827 ms by bot id=6674597359
+2024-01-12 22:07:35,436 - INFO - feed_update - Update id=539319897 is handled. Duration 405 ms by bot id=6674597359
+2024-01-12 22:07:36,876 - INFO - feed_update - Update id=539319898 is handled. Duration 280 ms by bot id=6674597359
+2024-01-12 22:07:39,335 - INFO - feed_update - Update id=539319899 is handled. Duration 344 ms by bot id=6674597359
+2024-01-12 22:07:44,673 - INFO - feed_update - Update id=539319900 is handled. Duration 719 ms by bot id=6674597359
+2024-01-12 22:07:47,763 - INFO - feed_update - Update id=539319901 is handled. Duration 359 ms by bot id=6674597359
+2024-01-12 22:07:50,496 - INFO - feed_update - Update id=539319902 is handled. Duration 250 ms by bot id=6674597359
+2024-01-12 22:07:52,432 - INFO - feed_update - Update id=539319903 is handled. Duration 186 ms by bot id=6674597359
+2024-01-12 22:07:54,420 - INFO - feed_update - Update id=539319904 is handled. Duration 171 ms by bot id=6674597359
+2024-01-12 22:07:55,632 - INFO - feed_update - Update id=539319905 is handled. Duration 125 ms by bot id=6674597359
+2024-01-12 22:07:56,842 - INFO - feed_update - Update id=539319906 is handled. Duration 422 ms by bot id=6674597359
+2024-01-12 22:08:18,578 - INFO - start_polling - Polling stopped
+2024-01-12 22:08:18,844 - INFO - _polling - Polling stopped for bot @SovtrudGorbushkaBot id=6674597359 - 'gorbushka'
+2024-01-13 00:07:10,296 - INFO - start_polling - Start polling
+2024-01-13 00:07:10,392 - INFO - _polling - Run polling for bot @SovtrudGorbushkaBot id=6674597359 - 'gorbushka'
+2024-01-13 00:07:21,010 - INFO - feed_update - Update id=539319907 is handled. Duration 1046 ms by bot id=6674597359
+2024-01-13 00:08:08,402 - INFO - start_polling - Polling stopped
+2024-01-13 00:08:08,667 - INFO - _polling - Polling stopped for bot @SovtrudGorbushkaBot id=6674597359 - 'gorbushka'
+2024-01-13 00:08:17,865 - INFO - start_polling - Start polling
+2024-01-13 00:08:17,975 - INFO - _polling - Run polling for bot @SovtrudGorbushkaBot id=6674597359 - 'gorbushka'
+2024-01-13 00:08:19,374 - INFO - feed_update - Update id=539319908 is handled. Duration 1141 ms by bot id=6674597359
+2024-01-13 00:09:52,618 - INFO - feed_update - Update id=539319909 is handled. Duration 921 ms by bot id=6674597359
+2024-01-13 00:32:10,621 - INFO - feed_update - Update id=539319910 is handled. Duration 672 ms by bot id=6674597359
+2024-01-13 00:32:15,503 - INFO - feed_update - Update id=539319911 is handled. Duration 625 ms by bot id=6674597359
+2024-01-13 00:32:19,435 - INFO - feed_update - Update id=539319912 is handled. Duration 625 ms by bot id=6674597359
+2024-01-13 00:37:38,294 - INFO - start_polling - Polling stopped
+2024-01-13 00:37:38,545 - INFO - _polling - Polling stopped for bot @SovtrudGorbushkaBot id=6674597359 - 'gorbushka'
+2024-01-13 00:37:41,003 - INFO - start_polling - Start polling
+2024-01-13 00:37:41,099 - INFO - _polling - Run polling for bot @SovtrudGorbushkaBot id=6674597359 - 'gorbushka'
+2024-01-13 00:37:48,780 - INFO - feed_update - Update id=539319913 is handled. Duration 1234 ms by bot id=6674597359
+2024-01-13 00:55:57,938 - INFO - start_polling - Polling stopped
+2024-01-13 00:55:58,203 - INFO - _polling - Polling stopped for bot @SovtrudGorbushkaBot id=6674597359 - 'gorbushka'
+2024-01-13 00:56:00,724 - INFO - start_polling - Start polling
+2024-01-13 00:56:00,825 - INFO - _polling - Run polling for bot @SovtrudGorbushkaBot id=6674597359 - 'gorbushka'
+2024-01-13 00:56:03,935 - INFO - feed_update - Update id=539319914 is not handled. Duration 780 ms by bot id=6674597359
+2024-01-13 00:56:03,935 - ERROR - _process_update - Cause exception while process update id=539319914 by bot id=6674597359
+KeyError: 'ZWD'
+Traceback (most recent call last):
+  File "C:\Users\Nikita\PycharmProjects\pythonProject\51_exchange_rates_bot\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\pythonProject\51_exchange_rates_bot\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\pythonProject\51_exchange_rates_bot\venv\Lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\pythonProject\51_exchange_rates_bot\venv\Lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 27, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\AppData\Local\Programs\Python\Python311\Lib\contextlib.py", line 222, in __aexit__
+    await self.gen.athrow(typ, value, traceback)
+  File "C:\Users\Nikita\PycharmProjects\pythonProject\51_exchange_rates_bot\venv\Lib\site-packages\aiogram\fsm\storage\memory.py", line 56, in lock
+    yield
+  File "C:\Users\Nikita\PycharmProjects\pythonProject\51_exchange_rates_bot\venv\Lib\site-packages\aiogram\fsm\middleware.py", line 41, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\pythonProject\51_exchange_rates_bot\venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\pythonProject\51_exchange_rates_bot\venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\pythonProject\51_exchange_rates_bot\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\pythonProject\51_exchange_rates_bot\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 116, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\pythonProject\51_exchange_rates_bot\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 111, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\pythonProject\51_exchange_rates_bot\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 144, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\pythonProject\51_exchange_rates_bot\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 116, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\pythonProject\51_exchange_rates_bot\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 111, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\pythonProject\51_exchange_rates_bot\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 136, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\pythonProject\51_exchange_rates_bot\venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\pythonProject\51_exchange_rates_bot\venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\pythonProject\51_exchange_rates_bot\handlers\common.py", line 37, in cmd_start
+    for key in calculation.get_all_exchange_rates_erapi()['exchange_rates'].keys():
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\pythonProject\51_exchange_rates_bot\calculation\calculation.py", line 66, in get_all_exchange_rates_erapi
+    exchange_rates['exchange_rates'].pop(minor_currency)
+KeyError: 'ZWD'
+2024-01-13 00:57:21,058 - INFO - start_polling - Polling stopped
+2024-01-13 00:57:21,311 - INFO - _polling - Polling stopped for bot @SovtrudGorbushkaBot id=6674597359 - 'gorbushka'
+2024-01-13 00:57:23,832 - INFO - start_polling - Start polling
+2024-01-13 00:57:23,935 - INFO - _polling - Run polling for bot @SovtrudGorbushkaBot id=6674597359 - 'gorbushka'
+2024-01-13 00:57:25,903 - INFO - feed_update - Update id=539319915 is not handled. Duration 765 ms by bot id=6674597359
+2024-01-13 00:57:25,903 - ERROR - _process_update - Cause exception while process update id=539319915 by bot id=6674597359
+KeyError: 'ZMK'
+Traceback (most recent call last):
+  File "C:\Users\Nikita\PycharmProjects\pythonProject\51_exchange_rates_bot\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\pythonProject\51_exchange_rates_bot\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\pythonProject\51_exchange_rates_bot\venv\Lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\pythonProject\51_exchange_rates_bot\venv\Lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 27, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\AppData\Local\Programs\Python\Python311\Lib\contextlib.py", line 222, in __aexit__
+    await self.gen.athrow(typ, value, traceback)
+  File "C:\Users\Nikita\PycharmProjects\pythonProject\51_exchange_rates_bot\venv\Lib\site-packages\aiogram\fsm\storage\memory.py", line 56, in lock
+    yield
+  File "C:\Users\Nikita\PycharmProjects\pythonProject\51_exchange_rates_bot\venv\Lib\site-packages\aiogram\fsm\middleware.py", line 41, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\pythonProject\51_exchange_rates_bot\venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\pythonProject\51_exchange_rates_bot\venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\pythonProject\51_exchange_rates_bot\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\pythonProject\51_exchange_rates_bot\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 116, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\pythonProject\51_exchange_rates_bot\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 111, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\pythonProject\51_exchange_rates_bot\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 144, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\pythonProject\51_exchange_rates_bot\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 116, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\pythonProject\51_exchange_rates_bot\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 111, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\pythonProject\51_exchange_rates_bot\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 136, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\pythonProject\51_exchange_rates_bot\venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\pythonProject\51_exchange_rates_bot\venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\pythonProject\51_exchange_rates_bot\handlers\common.py", line 37, in cmd_start
+    for key in calculation.get_all_exchange_rates_erapi()['exchange_rates'].keys():
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\pythonProject\51_exchange_rates_bot\calculation\calculation.py", line 66, in get_all_exchange_rates_erapi
+    exchange_rates['exchange_rates'].pop(minor_currency)
+KeyError: 'ZMK'
+2024-01-13 00:58:05,465 - INFO - start_polling - Polling stopped
+2024-01-13 00:58:05,545 - ERROR - _listen_updates - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [Errno 1] [SSL: APPLICATION_DATA_AFTER_CLOSE_NOTIFY] application data after close notify (_ssl.c:2672)
+2024-01-13 00:58:05,546 - WARNING - _listen_updates - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 6674597359)
+2024-01-13 00:58:05,734 - INFO - _polling - Polling stopped for bot @SovtrudGorbushkaBot id=6674597359 - 'gorbushka'
+2024-01-13 00:58:08,260 - INFO - start_polling - Start polling
+2024-01-13 00:58:08,363 - INFO - _polling - Run polling for bot @SovtrudGorbushkaBot id=6674597359 - 'gorbushka'
+2024-01-13 00:58:09,379 - INFO - feed_update - Update id=539319916 is not handled. Duration 672 ms by bot id=6674597359
+2024-01-13 00:58:09,380 - ERROR - _process_update - Cause exception while process update id=539319916 by bot id=6674597359
+KeyError: 'MRO'
+Traceback (most recent call last):
+  File "C:\Users\Nikita\PycharmProjects\pythonProject\51_exchange_rates_bot\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\pythonProject\51_exchange_rates_bot\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\pythonProject\51_exchange_rates_bot\venv\Lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\pythonProject\51_exchange_rates_bot\venv\Lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 27, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\AppData\Local\Programs\Python\Python311\Lib\contextlib.py", line 222, in __aexit__
+    await self.gen.athrow(typ, value, traceback)
+  File "C:\Users\Nikita\PycharmProjects\pythonProject\51_exchange_rates_bot\venv\Lib\site-packages\aiogram\fsm\storage\memory.py", line 56, in lock
+    yield
+  File "C:\Users\Nikita\PycharmProjects\pythonProject\51_exchange_rates_bot\venv\Lib\site-packages\aiogram\fsm\middleware.py", line 41, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\pythonProject\51_exchange_rates_bot\venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\pythonProject\51_exchange_rates_bot\venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\pythonProject\51_exchange_rates_bot\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\pythonProject\51_exchange_rates_bot\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 116, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\pythonProject\51_exchange_rates_bot\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 111, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\pythonProject\51_exchange_rates_bot\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 144, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\pythonProject\51_exchange_rates_bot\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 116, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\pythonProject\51_exchange_rates_bot\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 111, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\pythonProject\51_exchange_rates_bot\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 136, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\pythonProject\51_exchange_rates_bot\venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\pythonProject\51_exchange_rates_bot\venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\pythonProject\51_exchange_rates_bot\handlers\common.py", line 37, in cmd_start
+    for key in calculation.get_all_exchange_rates_erapi()['exchange_rates'].keys():
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\PycharmProjects\pythonProject\51_exchange_rates_bot\calculation\calculation.py", line 66, in get_all_exchange_rates_erapi
+    exchange_rates['exchange_rates'].pop(minor_currency)
+KeyError: 'MRO'
+2024-01-13 00:58:40,720 - INFO - start_polling - Polling stopped
+2024-01-13 00:58:40,974 - INFO - _polling - Polling stopped for bot @SovtrudGorbushkaBot id=6674597359 - 'gorbushka'
+2024-01-13 00:58:43,531 - INFO - start_polling - Start polling
+2024-01-13 00:58:43,632 - INFO - _polling - Run polling for bot @SovtrudGorbushkaBot id=6674597359 - 'gorbushka'
+2024-01-13 00:58:45,206 - INFO - feed_update - Update id=539319917 is handled. Duration 1094 ms by bot id=6674597359
+2024-01-13 01:02:39,936 - INFO - start_polling - Polling stopped
+2024-01-13 01:02:40,189 - INFO - _polling - Polling stopped for bot @SovtrudGorbushkaBot id=6674597359 - 'gorbushka'
+2024-01-13 01:02:42,665 - INFO - start_polling - Start polling
+2024-01-13 01:02:42,762 - INFO - _polling - Run polling for bot @SovtrudGorbushkaBot id=6674597359 - 'gorbushka'
+2024-01-13 01:02:48,396 - INFO - feed_update - Update id=539319918 is handled. Duration 1094 ms by bot id=6674597359
+2024-01-13 01:03:50,353 - INFO - start_polling - Polling stopped
+2024-01-13 01:03:50,618 - INFO - _polling - Polling stopped for bot @SovtrudGorbushkaBot id=6674597359 - 'gorbushka'
+2024-01-13 01:05:29,560 - INFO - start_polling - Start polling
+2024-01-13 01:05:29,666 - INFO - _polling - Run polling for bot @SovtrudGorbushkaBot id=6674597359 - 'gorbushka'
+2024-01-13 01:05:38,609 - INFO - feed_update - Update id=539319920 is handled. Duration 1014 ms by bot id=6674597359
+2024-01-13 01:05:46,613 - INFO - feed_update - Update id=539319921 is handled. Duration 733 ms by bot id=6674597359
+2024-01-13 01:05:50,905 - INFO - feed_update - Update id=539319922 is handled. Duration 686 ms by bot id=6674597359
+2024-01-13 01:06:07,156 - INFO - start_polling - Polling stopped
+2024-01-13 01:06:07,417 - INFO - _polling - Polling stopped for bot @SovtrudGorbushkaBot id=6674597359 - 'gorbushka'
+2024-01-13 01:07:30,811 - INFO - start_polling - Start polling
+2024-01-13 01:07:30,908 - INFO - _polling - Run polling for bot @SovtrudGorbushkaBot id=6674597359 - 'gorbushka'
+2024-01-13 01:07:37,706 - INFO - feed_update - Update id=539319923 is handled. Duration 921 ms by bot id=6674597359
+2024-01-13 01:07:41,448 - INFO - feed_update - Update id=539319924 is handled. Duration 515 ms by bot id=6674597359
+2024-01-13 01:07:44,881 - INFO - feed_update - Update id=539319925 is handled. Duration 234 ms by bot id=6674597359
+2024-01-13 01:07:58,801 - INFO - feed_update - Update id=539319926 is handled. Duration 405 ms by bot id=6674597359
+2024-01-13 01:08:02,264 - INFO - feed_update - Update id=539319927 is handled. Duration 671 ms by bot id=6674597359
+2024-01-13 01:08:05,816 - INFO - feed_update - Update id=539319928 is handled. Duration 296 ms by bot id=6674597359
+2024-01-13 01:08:11,024 - INFO - feed_update - Update id=539319929 is handled. Duration 563 ms by bot id=6674597359
+2024-01-13 01:08:31,348 - INFO - feed_update - Update id=539319930 is handled. Duration 797 ms by bot id=6674597359
+2024-01-13 01:08:33,182 - INFO - feed_update - Update id=539319931 is handled. Duration 625 ms by bot id=6674597359
+2024-01-13 01:09:58,834 - INFO - start_polling - Polling stopped
+2024-01-13 01:09:59,089 - INFO - _polling - Polling stopped for bot @SovtrudGorbushkaBot id=6674597359 - 'gorbushka'
+2024-01-13 01:10:01,613 - INFO - start_polling - Start polling
+2024-01-13 01:10:01,714 - INFO - _polling - Run polling for bot @SovtrudGorbushkaBot id=6674597359 - 'gorbushka'
+2024-01-13 01:10:05,278 - INFO - feed_update - Update id=539319932 is handled. Duration 1250 ms by bot id=6674597359
+2024-01-13 01:10:10,815 - INFO - feed_update - Update id=539319933 is handled. Duration 609 ms by bot id=6674597359
+2024-01-13 01:10:14,995 - INFO - feed_update - Update id=539319934 is handled. Duration 266 ms by bot id=6674597359
+2024-01-13 01:10:23,440 - INFO - feed_update - Update id=539319935 is handled. Duration 109 ms by bot id=6674597359
+2024-01-13 01:10:25,034 - INFO - feed_update - Update id=539319936 is handled. Duration 109 ms by bot id=6674597359
+2024-01-13 01:10:25,867 - INFO - feed_update - Update id=539319937 is handled. Duration 108 ms by bot id=6674597359
+2024-01-13 01:10:26,517 - INFO - feed_update - Update id=539319938 is handled. Duration 140 ms by bot id=6674597359
+2024-01-13 01:10:28,005 - INFO - feed_update - Update id=539319939 is handled. Duration 500 ms by bot id=6674597359
+2024-01-13 01:10:47,597 - INFO - feed_update - Update id=539319940 is handled. Duration 953 ms by bot id=6674597359
+2024-01-13 01:10:49,380 - INFO - feed_update - Update id=539319941 is handled. Duration 359 ms by bot id=6674597359
+2024-01-13 01:10:52,693 - INFO - feed_update - Update id=539319942 is handled. Duration 109 ms by bot id=6674597359
+2024-01-13 01:10:53,743 - INFO - feed_update - Update id=539319943 is handled. Duration 92 ms by bot id=6674597359
+2024-01-13 01:10:55,217 - INFO - feed_update - Update id=539319944 is handled. Duration 328 ms by bot id=6674597359
+2024-01-13 01:10:57,015 - INFO - feed_update - Update id=539319945 is handled. Duration 453 ms by bot id=6674597359
+2024-01-13 01:10:59,660 - INFO - feed_update - Update id=539319946 is handled. Duration 344 ms by bot id=6674597359
+2024-01-13 01:11:36,665 - INFO - feed_update - Update id=539319947 is handled. Duration 640 ms by bot id=6674597359
+2024-01-13 01:11:40,420 - INFO - feed_update - Update id=539319948 is handled. Duration 688 ms by bot id=6674597359
+2024-01-13 01:11:48,200 - INFO - feed_update - Update id=539319949 is handled. Duration 265 ms by bot id=6674597359
+2024-01-13 01:12:00,476 - INFO - feed_update - Update id=539319950 is handled. Duration 328 ms by bot id=6674597359
+2024-01-13 01:12:02,148 - INFO - feed_update - Update id=539319951 is handled. Duration 453 ms by bot id=6674597359
+2024-01-13 01:12:12,967 - INFO - feed_update - Update id=539319952 is handled. Duration 313 ms by bot id=6674597359
+2024-01-13 01:12:23,357 - INFO - feed_update - Update id=539319953 is handled. Duration 452 ms by bot id=6674597359
+2024-01-13 01:12:29,437 - INFO - feed_update - Update id=539319954 is handled. Duration 500 ms by bot id=6674597359
+2024-01-13 01:12:31,184 - INFO - feed_update - Update id=539319955 is handled. Duration 280 ms by bot id=6674597359
+2024-01-13 01:12:39,849 - INFO - feed_update - Update id=539319956 is handled. Duration 438 ms by bot id=6674597359
+2024-01-13 01:12:43,033 - INFO - feed_update - Update id=539319957 is handled. Duration 422 ms by bot id=6674597359
+2024-01-13 01:12:49,979 - INFO - feed_update - Update id=539319958 is handled. Duration 297 ms by bot id=6674597359
+2024-01-13 01:21:38,001 - INFO - feed_update - Update id=539319959 is handled. Duration 469 ms by bot id=6674597359
+2024-01-13 01:21:40,475 - INFO - feed_update - Update id=539319960 is handled. Duration 328 ms by bot id=6674597359
+2024-01-13 01:21:43,669 - INFO - feed_update - Update id=539319961 is handled. Duration 469 ms by bot id=6674597359
+2024-01-13 01:21:46,258 - INFO - feed_update - Update id=539319962 is handled. Duration 563 ms by bot id=6674597359
+2024-01-13 01:21:54,744 - INFO - feed_update - Update id=539319963 is handled. Duration 342 ms by bot id=6674597359
+2024-01-13 01:21:57,650 - INFO - feed_update - Update id=539319964 is handled. Duration 719 ms by bot id=6674597359
+2024-01-13 01:22:01,219 - INFO - feed_update - Update id=539319965 is handled. Duration 266 ms by bot id=6674597359
+2024-01-13 01:25:53,543 - ERROR - _listen_updates - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+2024-01-13 01:25:53,543 - WARNING - _listen_updates - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 6674597359)
+2024-01-13 01:26:04,844 - INFO - _listen_updates - Connection established (tryings = 1, bot id = 6674597359)
+2024-01-13 01:28:39,865 - INFO - feed_update - Update id=539319966 is handled. Duration 296 ms by bot id=6674597359
+2024-01-13 01:28:41,588 - INFO - feed_update - Update id=539319967 is handled. Duration 328 ms by bot id=6674597359
+2024-01-13 01:28:44,486 - INFO - feed_update - Update id=539319968 is handled. Duration 436 ms by bot id=6674597359
+2024-01-13 01:28:45,961 - INFO - feed_update - Update id=539319969 is handled. Duration 233 ms by bot id=6674597359
+2024-01-13 01:28:51,012 - INFO - feed_update - Update id=539319970 is handled. Duration 328 ms by bot id=6674597359
+2024-01-13 01:28:52,772 - INFO - feed_update - Update id=539319971 is handled. Duration 421 ms by bot id=6674597359
+2024-01-13 01:28:56,646 - INFO - feed_update - Update id=539319972 is handled. Duration 234 ms by bot id=6674597359
+2024-01-13 01:29:02,022 - INFO - feed_update - Update id=539319973 is handled. Duration 484 ms by bot id=6674597359
+2024-01-13 01:29:10,071 - INFO - feed_update - Update id=539319974 is handled. Duration 500 ms by bot id=6674597359
+2024-01-13 01:29:12,492 - INFO - feed_update - Update id=539319975 is handled. Duration 217 ms by bot id=6674597359
+2024-01-13 01:29:22,273 - INFO - feed_update - Update id=539319976 is handled. Duration 328 ms by bot id=6674597359
+2024-01-13 01:29:27,096 - INFO - feed_update - Update id=539319977 is handled. Duration 438 ms by bot id=6674597359
+2024-01-13 01:29:30,477 - INFO - feed_update - Update id=539319978 is handled. Duration 203 ms by bot id=6674597359
+2024-01-13 01:29:40,172 - INFO - start_polling - Polling stopped
+2024-01-13 01:29:40,364 - ERROR - _listen_updates - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [Errno 1] [SSL: APPLICATION_DATA_AFTER_CLOSE_NOTIFY] application data after close notify (_ssl.c:2672)
+2024-01-13 01:29:40,364 - WARNING - _listen_updates - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 6674597359)
+2024-01-13 01:29:40,432 - INFO - _polling - Polling stopped for bot @SovtrudGorbushkaBot id=6674597359 - 'gorbushka'
+2024-01-13 14:14:34,539 - INFO - start_polling - Start polling
+2024-01-13 14:14:34,645 - INFO - _polling - Run polling for bot @SovtrudGorbushkaBot id=6674597359 - 'gorbushka'
+2024-01-13 14:16:06,878 - INFO - feed_update - Update id=539319979 is handled. Duration 968 ms by bot id=6674597359
+2024-01-13 14:16:10,995 - INFO - feed_update - Update id=539319980 is handled. Duration 437 ms by bot id=6674597359
+2024-01-13 14:16:12,337 - INFO - feed_update - Update id=539319981 is handled. Duration 218 ms by bot id=6674597359
+2024-01-13 14:16:15,037 - INFO - feed_update - Update id=539319982 is handled. Duration 344 ms by bot id=6674597359
+2024-01-13 14:16:17,678 - INFO - feed_update - Update id=539319983 is handled. Duration 406 ms by bot id=6674597359
+2024-01-13 14:16:21,557 - INFO - feed_update - Update id=539319984 is handled. Duration 203 ms by bot id=6674597359
+2024-01-13 14:51:16,286 - INFO - feed_update - Update id=539319985 is not handled. Duration 0 ms by bot id=6674597359
+2024-01-13 14:52:56,865 - INFO - feed_update - Update id=539319986 is handled. Duration 516 ms by bot id=6674597359
+2024-01-13 14:53:31,914 - INFO - feed_update - Update id=539319987 is handled. Duration 735 ms by bot id=6674597359
+2024-01-13 14:53:37,352 - INFO - feed_update - Update id=539319988 is handled. Duration 531 ms by bot id=6674597359
+2024-01-13 14:53:46,618 - INFO - feed_update - Update id=539319989 is handled. Duration 281 ms by bot id=6674597359
+2024-01-13 14:54:18,726 - INFO - feed_update - Update id=539319990 is handled. Duration 531 ms by bot id=6674597359
+2024-01-13 14:54:19,127 - INFO - feed_update - Update id=539319991 is handled. Duration 562 ms by bot id=6674597359
+2024-01-13 14:54:19,206 - INFO - feed_update - Update id=539319992 is handled. Duration 468 ms by bot id=6674597359
+2024-01-13 14:54:29,210 - INFO - feed_update - Update id=539319993 is handled. Duration 218 ms by bot id=6674597359
+2024-01-13 14:54:32,552 - INFO - feed_update - Update id=539319994 is handled. Duration 109 ms by bot id=6674597359
+2024-01-13 14:54:37,098 - INFO - feed_update - Update id=539319995 is handled. Duration 108 ms by bot id=6674597359
+2024-01-13 14:54:40,318 - INFO - feed_update - Update id=539319996 is handled. Duration 312 ms by bot id=6674597359
+2024-01-13 14:54:42,081 - INFO - feed_update - Update id=539319997 is handled. Duration 110 ms by bot id=6674597359
+2024-01-13 14:54:50,610 - INFO - feed_update - Update id=539319998 is handled. Duration 344 ms by bot id=6674597359
+2024-01-13 14:54:55,277 - INFO - feed_update - Update id=539319999 is handled. Duration 421 ms by bot id=6674597359
+2024-01-13 14:55:02,635 - INFO - feed_update - Update id=539320000 is handled. Duration 406 ms by bot id=6674597359
+2024-01-13 14:55:06,761 - INFO - feed_update - Update id=539320001 is handled. Duration 436 ms by bot id=6674597359
+2024-01-13 14:55:12,373 - INFO - feed_update - Update id=539320002 is handled. Duration 437 ms by bot id=6674597359
+2024-01-13 14:55:16,845 - INFO - feed_update - Update id=539320003 is handled. Duration 233 ms by bot id=6674597359
+2024-01-13 14:55:19,609 - INFO - feed_update - Update id=539320004 is handled. Duration 235 ms by bot id=6674597359
+2024-01-13 14:56:05,171 - INFO - feed_update - Update id=539320005 is handled. Duration 359 ms by bot id=6674597359
+2024-01-13 14:56:05,822 - INFO - feed_update - Update id=539320006 is handled. Duration 905 ms by bot id=6674597359
+2024-01-13 14:56:08,060 - INFO - feed_update - Update id=539320007 is handled. Duration 343 ms by bot id=6674597359
+2024-01-13 14:56:10,938 - INFO - feed_update - Update id=539320008 is handled. Duration 250 ms by bot id=6674597359
+2024-01-13 14:56:11,433 - INFO - feed_update - Update id=539320009 is handled. Duration 421 ms by bot id=6674597359
+2024-01-13 14:56:14,609 - INFO - feed_update - Update id=539320010 is handled. Duration 235 ms by bot id=6674597359
+2024-01-13 14:56:18,664 - INFO - feed_update - Update id=539320011 is handled. Duration 110 ms by bot id=6674597359
+2024-01-13 14:56:19,094 - INFO - feed_update - Update id=539320012 is handled. Duration 358 ms by bot id=6674597359
+2024-01-13 14:56:21,931 - INFO - feed_update - Update id=539320013 is handled. Duration 109 ms by bot id=6674597359
+2024-01-13 14:56:23,698 - INFO - feed_update - Update id=539320014 is handled. Duration 296 ms by bot id=6674597359
+2024-01-13 14:56:25,337 - INFO - feed_update - Update id=539320015 is handled. Duration 406 ms by bot id=6674597359
+2024-01-13 14:56:29,121 - INFO - feed_update - Update id=539320016 is handled. Duration 468 ms by bot id=6674597359
+2024-01-13 14:56:30,564 - INFO - feed_update - Update id=539320017 is handled. Duration 577 ms by bot id=6674597359
+2024-01-13 14:56:32,827 - INFO - feed_update - Update id=539320018 is handled. Duration 235 ms by bot id=6674597359
+2024-01-13 14:56:34,615 - INFO - feed_update - Update id=539320019 is handled. Duration 235 ms by bot id=6674597359
+2024-01-13 14:56:37,142 - INFO - feed_update - Update id=539320020 is handled. Duration 436 ms by bot id=6674597359
+2024-01-13 14:56:39,280 - INFO - feed_update - Update id=539320021 is handled. Duration 250 ms by bot id=6674597359
+2024-01-13 14:57:06,104 - INFO - feed_update - Update id=539320022 is handled. Duration 546 ms by bot id=6674597359
+2024-01-13 14:57:12,597 - INFO - feed_update - Update id=539320023 is handled. Duration 311 ms by bot id=6674597359
+2024-01-13 14:57:13,747 - INFO - feed_update - Update id=539320024 is handled. Duration 328 ms by bot id=6674597359
+2024-01-13 14:57:25,939 - INFO - feed_update - Update id=539320025 is handled. Duration 108 ms by bot id=6674597359
+2024-01-13 14:57:27,974 - INFO - feed_update - Update id=539320026 is handled. Duration 328 ms by bot id=6674597359
+2024-01-13 14:57:28,371 - INFO - feed_update - Update id=539320027 is handled. Duration 625 ms by bot id=6674597359
+2024-01-13 14:57:30,690 - INFO - feed_update - Update id=539320028 is handled. Duration 405 ms by bot id=6674597359
+2024-01-13 14:57:33,601 - INFO - feed_update - Update id=539320029 is handled. Duration 233 ms by bot id=6674597359
+2024-01-13 14:57:33,921 - INFO - feed_update - Update id=539320030 is handled. Duration 234 ms by bot id=6674597359
+2024-01-13 14:57:51,520 - INFO - feed_update - Update id=539320031 is handled. Duration 671 ms by bot id=6674597359
+2024-01-13 14:57:53,931 - INFO - feed_update - Update id=539320032 is handled. Duration 389 ms by bot id=6674597359
+2024-01-13 14:58:10,943 - INFO - feed_update - Update id=539320033 is handled. Duration 296 ms by bot id=6674597359
+2024-01-13 14:58:12,953 - INFO - feed_update - Update id=539320034 is handled. Duration 313 ms by bot id=6674597359
+2024-01-13 14:58:17,928 - INFO - feed_update - Update id=539320035 is handled. Duration 625 ms by bot id=6674597359
+2024-01-13 14:58:20,933 - INFO - feed_update - Update id=539320036 is handled. Duration 250 ms by bot id=6674597359
+2024-01-13 14:58:24,143 - INFO - feed_update - Update id=539320037 is handled. Duration 311 ms by bot id=6674597359
+2024-01-13 16:07:44,350 - INFO - start_polling - Polling stopped
+2024-01-13 16:07:44,614 - INFO - _polling - Polling stopped for bot @SovtrudGorbushkaBot id=6674597359 - 'gorbushka'
+2024-01-13 20:41:02,437 - INFO - start_polling - Start polling
+2024-01-13 20:41:02,530 - INFO - _polling - Run polling for bot @SovtrudGorbushkaBot id=6674597359 - 'gorbushka'
+2024-01-13 20:41:24,271 - INFO - feed_update - Update id=539320038 is handled. Duration 452 ms by bot id=6674597359
+2024-01-13 20:48:25,120 - INFO - start_polling - Polling stopped
+2024-01-13 20:48:25,383 - INFO - _polling - Polling stopped for bot @SovtrudGorbushkaBot id=6674597359 - 'gorbushka'
+2024-01-13 20:48:38,124 - INFO - start_polling - Start polling
+2024-01-13 20:48:38,241 - INFO - _polling - Run polling for bot @SovtrudGorbushkaBot id=6674597359 - 'gorbushka'
+2024-01-13 20:48:39,560 - INFO - feed_update - Update id=539320039 is handled. Duration 343 ms by bot id=6674597359
+2024-01-13 20:50:20,967 - INFO - start_polling - Polling stopped
+2024-01-13 20:50:21,232 - INFO - _polling - Polling stopped for bot @SovtrudGorbushkaBot id=6674597359 - 'gorbushka'
+2024-01-13 20:50:23,513 - INFO - start_polling - Start polling
+2024-01-13 20:50:23,611 - INFO - _polling - Run polling for bot @SovtrudGorbushkaBot id=6674597359 - 'gorbushka'
+2024-01-13 20:50:26,798 - INFO - feed_update - Update id=539320040 is handled. Duration 483 ms by bot id=6674597359
+2024-01-13 20:52:09,062 - INFO - feed_update - Update id=539320041 is handled. Duration 125 ms by bot id=6674597359
+2024-01-13 20:52:11,272 - INFO - start_polling - Polling stopped
+2024-01-13 20:52:11,547 - INFO - _polling - Polling stopped for bot @SovtrudGorbushkaBot id=6674597359 - 'gorbushka'
+2024-01-13 21:00:24,037 - INFO - start_polling - Start polling
+2024-01-13 21:00:24,152 - INFO - _polling - Run polling for bot @SovtrudGorbushkaBot id=6674597359 - 'gorbushka'
+2024-01-13 21:02:05,664 - INFO - start_polling - Polling stopped
+2024-01-13 21:02:05,926 - INFO - _polling - Polling stopped for bot @SovtrudGorbushkaBot id=6674597359 - 'gorbushka'
+2024-01-13 21:02:08,671 - INFO - start_polling - Start polling
+2024-01-13 21:02:08,799 - INFO - _polling - Run polling for bot @SovtrudGorbushkaBot id=6674597359 - 'gorbushka'
+2024-01-13 21:07:22,872 - INFO - start_polling - Polling stopped
+2024-01-13 21:07:23,137 - INFO - _polling - Polling stopped for bot @SovtrudGorbushkaBot id=6674597359 - 'gorbushka'
+2024-01-15 21:40:23,896 - INFO - start_polling - Start polling
+2024-01-15 21:40:24,015 - INFO - _polling - Run polling for bot @SovtrudGorbushkaBot id=6674597359 - 'gorbushka'
+2024-01-15 21:40:47,305 - INFO - feed_update - Update id=539320127 is not handled. Duration 0 ms by bot id=6674597359
+2024-01-15 21:41:11,845 - INFO - start_polling - Polling stopped
+2024-01-15 21:41:12,101 - INFO - _polling - Polling stopped for bot @SovtrudGorbushkaBot id=6674597359 - 'gorbushka'
+2024-01-15 21:43:29,648 - INFO - start_polling - Start polling
+2024-01-15 21:43:29,759 - INFO - _polling - Run polling for bot @SovtrudGorbushkaBot id=6674597359 - 'gorbushka'
+2024-01-15 21:43:35,735 - INFO - feed_update - Update id=539320128 is handled. Duration 608 ms by bot id=6674597359
+2024-01-15 21:43:38,907 - INFO - feed_update - Update id=539320129 is not handled. Duration 0 ms by bot id=6674597359
+2024-01-15 21:43:40,792 - INFO - feed_update - Update id=539320130 is not handled. Duration 0 ms by bot id=6674597359
+2024-01-15 21:43:41,731 - INFO - feed_update - Update id=539320131 is not handled. Duration 0 ms by bot id=6674597359
+2024-01-15 21:43:42,463 - INFO - feed_update - Update id=539320132 is not handled. Duration 0 ms by bot id=6674597359
+2024-01-15 21:43:44,548 - INFO - feed_update - Update id=539320133 is handled. Duration 1312 ms by bot id=6674597359
+2024-01-15 21:45:08,433 - INFO - start_polling - Polling stopped
+2024-01-15 21:45:08,688 - INFO - _polling - Polling stopped for bot @SovtrudGorbushkaBot id=6674597359 - 'gorbushka'
+2024-01-15 21:45:08,769 - ERROR - default_exception_handler - Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x00000237F91E4410>
+2024-01-15 21:45:27,727 - INFO - start_polling - Start polling
+2024-01-15 21:45:27,831 - INFO - _polling - Run polling for bot @SovtrudGorbushkaBot id=6674597359 - 'gorbushka'
+2024-01-15 21:45:31,470 - INFO - feed_update - Update id=539320134 is handled. Duration 1421 ms by bot id=6674597359
+2024-01-15 21:45:49,363 - INFO - feed_update - Update id=539320135 is handled. Duration 671 ms by bot id=6674597359
+2024-01-15 21:45:56,504 - INFO - feed_update - Update id=539320136 is handled. Duration 282 ms by bot id=6674597359
+2024-01-15 21:47:00,487 - INFO - start_polling - Polling stopped
+2024-01-15 21:47:00,742 - INFO - _polling - Polling stopped for bot @SovtrudGorbushkaBot id=6674597359 - 'gorbushka'
+2024-01-15 21:47:00,820 - ERROR - default_exception_handler - Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x00000227C4523C90>
+2024-01-15 21:47:03,207 - INFO - start_polling - Start polling
+2024-01-15 21:47:03,334 - INFO - _polling - Run polling for bot @SovtrudGorbushkaBot id=6674597359 - 'gorbushka'
+2024-01-15 21:47:06,459 - INFO - feed_update - Update id=539320137 is handled. Duration 2000 ms by bot id=6674597359
+2024-01-15 21:47:25,542 - INFO - feed_update - Update id=539320138 is handled. Duration 733 ms by bot id=6674597359
+2024-01-15 21:47:29,153 - INFO - feed_update - Update id=539320139 is handled. Duration 1030 ms by bot id=6674597359
+2024-01-15 21:47:53,331 - INFO - feed_update - Update id=539320140 is handled. Duration 1577 ms by bot id=6674597359
+2024-01-15 21:48:27,325 - INFO - feed_update - Update id=539320141 is handled. Duration 1297 ms by bot id=6674597359
+2024-01-15 21:48:37,867 - INFO - feed_update - Update id=539320142 is handled. Duration 1625 ms by bot id=6674597359
+2024-01-15 21:49:37,058 - INFO - feed_update - Update id=539320143 is handled. Duration 344 ms by bot id=6674597359
+2024-01-15 21:59:24,558 - INFO - start_polling - Polling stopped
+2024-01-15 21:59:24,818 - INFO - _polling - Polling stopped for bot @SovtrudGorbushkaBot id=6674597359 - 'gorbushka'
+2024-01-15 21:59:24,901 - ERROR - default_exception_handler - Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x0000026CAFEAF490>
+2024-01-15 21:59:27,479 - INFO - start_polling - Start polling
+2024-01-15 21:59:27,584 - INFO - _polling - Run polling for bot @SovtrudGorbushkaBot id=6674597359 - 'gorbushka'
+2024-01-15 21:59:38,295 - INFO - feed_update - Update id=539320144 is handled. Duration 578 ms by bot id=6674597359
+2024-01-15 21:59:41,233 - INFO - feed_update - Update id=539320145 is handled. Duration 1046 ms by bot id=6674597359
+2024-01-15 22:00:59,747 - INFO - start_polling - Polling stopped
+2024-01-15 22:01:00,012 - INFO - _polling - Polling stopped for bot @SovtrudGorbushkaBot id=6674597359 - 'gorbushka'
+2024-01-15 22:01:00,100 - ERROR - default_exception_handler - Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x0000029A4AD46650>
+2024-01-15 22:01:10,971 - INFO - start_polling - Start polling
+2024-01-15 22:01:11,080 - INFO - _polling - Run polling for bot @SovtrudGorbushkaBot id=6674597359 - 'gorbushka'
+2024-01-15 22:01:15,914 - INFO - feed_update - Update id=539320146 is handled. Duration 625 ms by bot id=6674597359
+2024-01-15 22:01:19,444 - INFO - feed_update - Update id=539320147 is handled. Duration 2234 ms by bot id=6674597359
+2024-01-15 22:01:42,410 - INFO - start_polling - Polling stopped
+2024-01-15 22:01:42,671 - INFO - _polling - Polling stopped for bot @SovtrudGorbushkaBot id=6674597359 - 'gorbushka'
+2024-01-15 22:01:42,754 - ERROR - default_exception_handler - Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x0000025ADDD9DFD0>
+2024-01-15 22:01:42,754 - ERROR - default_exception_handler - Unclosed connector
+connections: ['[(<aiohttp.client_proto.ResponseHandler object at 0x0000025ADDCEF5B0>, 245268.125)]']
+connector: <aiohttp.connector.TCPConnector object at 0x0000025ADDECA610>
+2024-01-15 22:01:45,526 - INFO - start_polling - Start polling
+2024-01-15 22:01:45,624 - INFO - _polling - Run polling for bot @SovtrudGorbushkaBot id=6674597359 - 'gorbushka'
+2024-01-15 22:01:54,868 - INFO - feed_update - Update id=539320149 is handled. Duration 703 ms by bot id=6674597359
+2024-01-15 22:01:57,925 - INFO - feed_update - Update id=539320150 is handled. Duration 546 ms by bot id=6674597359
+2024-01-15 22:02:00,874 - INFO - feed_update - Update id=539320151 is handled. Duration 233 ms by bot id=6674597359
+2024-01-15 22:02:04,790 - INFO - feed_update - Update id=539320152 is handled. Duration 421 ms by bot id=6674597359
+2024-01-15 22:03:03,127 - INFO - start_polling - Polling stopped
+2024-01-15 22:03:03,381 - INFO - _polling - Polling stopped for bot @SovtrudGorbushkaBot id=6674597359 - 'gorbushka'
+2024-01-15 22:03:03,463 - ERROR - default_exception_handler - Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x000001EA173EDB90>
+2024-01-15 22:03:06,011 - INFO - start_polling - Start polling
+2024-01-15 22:03:06,127 - INFO - _polling - Run polling for bot @SovtrudGorbushkaBot id=6674597359 - 'gorbushka'
+2024-01-15 22:03:08,916 - INFO - feed_update - Update id=539320153 is handled. Duration 500 ms by bot id=6674597359
+2024-01-15 22:03:11,806 - INFO - feed_update - Update id=539320154 is handled. Duration 546 ms by bot id=6674597359
+2024-01-15 22:03:28,207 - INFO - start_polling - Polling stopped
+2024-01-15 22:03:28,469 - INFO - _polling - Polling stopped for bot @SovtrudGorbushkaBot id=6674597359 - 'gorbushka'
+2024-01-15 22:03:28,550 - ERROR - default_exception_handler - Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x0000025C9617B4D0>
+2024-01-15 22:03:30,998 - INFO - start_polling - Start polling
+2024-01-15 22:03:31,099 - INFO - _polling - Run polling for bot @SovtrudGorbushkaBot id=6674597359 - 'gorbushka'
+2024-01-15 22:03:32,407 - INFO - feed_update - Update id=539320155 is handled. Duration 671 ms by bot id=6674597359
+2024-01-15 22:03:35,759 - INFO - feed_update - Update id=539320156 is handled. Duration 422 ms by bot id=6674597359
+2024-01-15 22:03:38,162 - INFO - feed_update - Update id=539320157 is handled. Duration 312 ms by bot id=6674597359
+2024-01-15 22:03:39,916 - INFO - feed_update - Update id=539320158 is handled. Duration 358 ms by bot id=6674597359
+2024-01-15 22:03:41,586 - INFO - feed_update - Update id=539320159 is handled. Duration 390 ms by bot id=6674597359
+2024-01-15 22:04:31,956 - INFO - start_polling - Polling stopped
+2024-01-15 22:04:32,207 - INFO - _polling - Polling stopped for bot @SovtrudGorbushkaBot id=6674597359 - 'gorbushka'
+2024-01-15 22:04:32,287 - ERROR - default_exception_handler - Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x000001DA049F0B50>
+2024-01-15 22:04:34,756 - INFO - start_polling - Start polling
+2024-01-15 22:04:34,865 - INFO - _polling - Run polling for bot @SovtrudGorbushkaBot id=6674597359 - 'gorbushka'
+2024-01-15 22:04:36,777 - INFO - feed_update - Update id=539320160 is handled. Duration 858 ms by bot id=6674597359
+2024-01-15 22:06:45,878 - INFO - start_polling - Polling stopped
+2024-01-15 22:06:46,130 - INFO - _polling - Polling stopped for bot @SovtrudGorbushkaBot id=6674597359 - 'gorbushka'
+2024-01-15 22:06:46,211 - ERROR - default_exception_handler - Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x0000021C078E8310>
+2024-01-15 22:06:48,743 - INFO - start_polling - Start polling
+2024-01-15 22:06:48,867 - INFO - _polling - Run polling for bot @SovtrudGorbushkaBot id=6674597359 - 'gorbushka'
+2024-01-15 22:06:50,082 - INFO - feed_update - Update id=539320161 is handled. Duration 796 ms by bot id=6674597359
+2024-01-15 22:07:23,857 - INFO - start_polling - Polling stopped
+2024-01-15 22:07:24,109 - INFO - _polling - Polling stopped for bot @SovtrudGorbushkaBot id=6674597359 - 'gorbushka'
+2024-01-15 22:07:24,189 - ERROR - default_exception_handler - Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x000001FC36DE82D0>
+2024-01-15 22:07:26,701 - INFO - start_polling - Start polling
+2024-01-15 22:07:26,823 - INFO - _polling - Run polling for bot @SovtrudGorbushkaBot id=6674597359 - 'gorbushka'
+2024-01-15 22:07:28,776 - INFO - feed_update - Update id=539320162 is handled. Duration 717 ms by bot id=6674597359
+2024-01-15 22:07:47,748 - INFO - feed_update - Update id=539320163 is handled. Duration 796 ms by bot id=6674597359
+2024-01-15 22:07:50,045 - INFO - feed_update - Update id=539320164 is handled. Duration 282 ms by bot id=6674597359
+2024-01-15 22:07:52,028 - INFO - feed_update - Update id=539320165 is handled. Duration 296 ms by bot id=6674597359
+2024-01-15 22:07:54,796 - INFO - feed_update - Update id=539320166 is handled. Duration 578 ms by bot id=6674597359
+2024-01-15 22:10:35,928 - INFO - start_polling - Polling stopped
+2024-01-15 22:10:36,181 - INFO - _polling - Polling stopped for bot @SovtrudGorbushkaBot id=6674597359 - 'gorbushka'
+2024-01-15 22:10:36,264 - ERROR - default_exception_handler - Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x000001E5697C4510>
+2024-01-15 22:10:38,921 - INFO - start_polling - Start polling
+2024-01-15 22:10:39,040 - INFO - _polling - Run polling for bot @SovtrudGorbushkaBot id=6674597359 - 'gorbushka'
+2024-01-15 22:10:44,391 - INFO - feed_update - Update id=539320167 is handled. Duration 625 ms by bot id=6674597359
+2024-01-15 22:11:20,295 - INFO - feed_update - Update id=539320168 is handled. Duration 718 ms by bot id=6674597359
+2024-01-15 22:11:34,308 - INFO - feed_update - Update id=539320169 is handled. Duration 141 ms by bot id=6674597359
+2024-01-15 22:11:48,487 - INFO - feed_update - Update id=539320170 is handled. Duration 312 ms by bot id=6674597359
+2024-01-15 22:11:58,110 - INFO - feed_update - Update id=539320171 is handled. Duration 296 ms by bot id=6674597359
+2024-01-15 22:14:02,434 - INFO - start_polling - Polling stopped
+2024-01-15 22:14:02,686 - INFO - _polling - Polling stopped for bot @SovtrudGorbushkaBot id=6674597359 - 'gorbushka'
+2024-01-15 22:14:05,036 - INFO - start_polling - Start polling
+2024-01-15 22:14:05,140 - INFO - _polling - Run polling for bot @SovtrudGorbushkaBot id=6674597359 - 'gorbushka'
+2024-01-15 22:14:06,764 - INFO - feed_update - Update id=539320172 is handled. Duration 360 ms by bot id=6674597359
+2024-01-15 22:14:51,000 - INFO - start_polling - Polling stopped
+2024-01-15 22:14:51,256 - INFO - _polling - Polling stopped for bot @SovtrudGorbushkaBot id=6674597359 - 'gorbushka'
+2024-01-15 22:14:53,735 - INFO - start_polling - Start polling
+2024-01-15 22:14:53,848 - INFO - _polling - Run polling for bot @SovtrudGorbushkaBot id=6674597359 - 'gorbushka'
+2024-01-15 22:14:55,174 - INFO - feed_update - Update id=539320173 is handled. Duration 516 ms by bot id=6674597359
+2024-01-15 22:15:05,050 - INFO - feed_update - Update id=539320174 is handled. Duration 500 ms by bot id=6674597359
+2024-01-15 22:15:08,685 - INFO - feed_update - Update id=539320175 is handled. Duration 282 ms by bot id=6674597359
+2024-01-15 22:22:45,739 - INFO - feed_update - Update id=539320176 is handled. Duration 608 ms by bot id=6674597359
+2024-01-15 22:22:48,991 - INFO - feed_update - Update id=539320177 is handled. Duration 1108 ms by bot id=6674597359
+2024-01-15 22:22:55,360 - INFO - feed_update - Update id=539320178 is handled. Duration 1125 ms by bot id=6674597359
+2024-01-15 22:22:57,735 - INFO - feed_update - Update id=539320179 is handled. Duration 844 ms by bot id=6674597359
+2024-01-15 22:23:28,102 - INFO - feed_update - Update id=539320180 is handled. Duration 562 ms by bot id=6674597359

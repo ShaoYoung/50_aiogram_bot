@@ -53,7 +53,7 @@ async def swear_words(message: Message, state: FSMContext):
 
 
 # Обработчик первого шага, реагирующий на команду /food в случае, если у пользователя не установлен никакой State:
-@router.message(Command('food'))
+@router.message(StateFilter(None), Command('food'))
 async def cmd_food(message: Message, state: FSMContext):
     await message.answer(text="Выберите блюдо:", reply_markup=make_row_keyboard(available_food_names))
     # Устанавливаем пользователю состояние "выбирает название блюда"
@@ -61,7 +61,7 @@ async def cmd_food(message: Message, state: FSMContext):
 
 
 # Обработчик шага, реагирующий на команду /drink в случае, если у пользователя не установлен никакой State:
-@router.message(Command('drink'))
+@router.message(StateFilter(None), Command('drink'))
 async def cmd_drink(message: Message, state: FSMContext):
     await message.answer(text="Выберите напиток:", reply_markup=make_row_keyboard(available_drink_names))
     # Устанавливаем пользователю состояние "выбирает название напитка"

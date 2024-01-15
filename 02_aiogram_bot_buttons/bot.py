@@ -367,16 +367,6 @@ async def callbacks_num_finish_fab(callback: types.CallbackQuery):
 
 
 
-
-
-
-
-
-
-
-
-
-
 @dp.message(F.text)
 async def unknown_text(message: types.Message):
     await message.reply("Я не знаю, что вам на это ответить")
